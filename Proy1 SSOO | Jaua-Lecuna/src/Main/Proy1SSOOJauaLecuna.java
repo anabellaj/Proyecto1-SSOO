@@ -2,7 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package proy1.ssoo.jaua.lecuna;
+package Main;
+import Interfaz.Menu;
 
 /**
  *
@@ -15,6 +16,11 @@ public class Proy1SSOOJauaLecuna {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Menu menu = new Menu();
+        menu.setVisible(true);
+        menu.setLocationRelativeTo(null);
+        
+       
     }
     
 }
