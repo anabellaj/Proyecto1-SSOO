@@ -19,7 +19,7 @@ public class Proy1SSOOJauaLecuna {
         Menu menu = new Menu();
         menu.setVisible(true);
         menu.setLocationRelativeTo(null);
-        
+        menu.setResizable(false);
        
     }
     
