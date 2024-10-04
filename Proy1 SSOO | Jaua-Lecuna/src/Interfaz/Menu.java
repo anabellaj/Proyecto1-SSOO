@@ -54,6 +54,12 @@ public class Menu extends javax.swing.JFrame {
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        netProfit = new javax.swing.JLabel();
+        totalCost = new javax.swing.JLabel();
+        totalEarnings = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
 
@@ -233,13 +239,12 @@ public class Menu extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 225, -1, -1));
+        jPanel2.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 225, 20, -1));
 
         jButton12.setBackground(new java.awt.Color(204, 204, 204));
         jButton12.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
         jButton12.setText("+");
         jButton12.setBorderPainted(false);
-        jButton12.setOpaque(true);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
@@ -258,6 +263,30 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 225, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
+        jLabel5.setText("Ganancias:");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
+        jLabel13.setText("Gastos totales:");
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 20, -1, -1));
+
+        jLabel14.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
+        jLabel14.setText("Ingresos totales:");
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, -1, -1));
+
+        netProfit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        netProfit.setText("0");
+        jPanel2.add(netProfit, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, 120, -1));
+
+        totalCost.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        totalCost.setText("0");
+        jPanel2.add(totalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 20, 120, -1));
+
+        totalEarnings.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        totalEarnings.setText("0");
+        jPanel2.add(totalEarnings, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 120, -1));
 
         jTabbedPane5.addTab("Apple", jPanel2);
 
@@ -402,9 +431,12 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -415,5 +447,8 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane5;
+    private javax.swing.JLabel netProfit;
+    private javax.swing.JLabel totalCost;
+    private javax.swing.JLabel totalEarnings;
     // End of variables declaration//GEN-END:variables
 }
