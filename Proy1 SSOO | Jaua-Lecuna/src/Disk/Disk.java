@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Disk;
+import Workers.WorkerTypes;
 import java.util.concurrent.Semaphore;
 
 
@@ -70,6 +71,27 @@ public class Disk {
         this.earnings = 0;
         this.netProfit = 0;
         this.salaryFault = 100;
+    }
+    
+    public void addProduct(WorkerTypes type){
+        switch (type){
+            // MotherboardProducer(0), CpuProducer(1), PowerSupplyProducer(2), RamProducer(3), GpuProducer(4) 
+            case MotherboardProducer:
+                this.setMotherboard((this.getMotherboard()< this.getMaxMotherboard())? this.getMotherboard()+ 1: this.getMotherboard());
+                break;
+            case CpuProducer:
+                this.setCpu((this.getCpu() < this.getMaxCpu())? this.getCpu()+ 1: this.getCpu());
+                break;
+            case PowerSupplyProducer:
+                this.setPowerSupply((this.getPowerSupply()< this.getMaxPowerSupply())? this.getPowerSupply() + 1: this.getPowerSupply());
+                break;
+            case RamProducer:
+                this.setRam((this.getRam()< this.getMaxRam())? this.getRam()+ 1: this.getRam());
+                break;
+            case GpuProducer:
+                this.setGpu((this.getGpu()< this.getMaxGpu())? this.getGpu()+ 1: this.getGpu());
+                break;
+    }
     }
 
     /**
