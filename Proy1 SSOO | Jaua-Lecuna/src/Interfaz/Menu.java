@@ -198,6 +198,29 @@ public class Menu extends javax.swing.JFrame {
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
+        jLabel27 = new javax.swing.JLabel();
+        ajustes_compañia = new javax.swing.JComboBox<>();
+        jLabel28 = new javax.swing.JLabel();
+        ajustes_entrega = new javax.swing.JTextField();
+        jLabel29 = new javax.swing.JLabel();
+        ajustes_ensam = new javax.swing.JTextField();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        ajustes_dias_eq1 = new javax.swing.JTextField();
+        ajustes_fuentes = new javax.swing.JTextField();
+        ajustes_tarjetas = new javax.swing.JTextField();
+        ajustes_cpu = new javax.swing.JTextField();
+        ajustes_placa = new javax.swing.JTextField();
+        ajustes_RAM = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -1008,18 +1031,125 @@ public class Menu extends javax.swing.JFrame {
 
         jTabbedPane5.addTab("Apple", jPanel2);
 
-        jPanel4.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(210, 174, 246));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1170, Short.MAX_VALUE)
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 782, Short.MAX_VALUE)
-        );
+        jLabel27.setFont(new java.awt.Font("Helvetica Neue", 1, 36)); // NOI18N
+        jLabel27.setText("Ajustes de Simulación");
+        jPanel4.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, -1, -1));
+
+        ajustes_compañia.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        ajustes_compañia.setForeground(new java.awt.Color(153, 0, 204));
+        ajustes_compañia.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dell", "Apple" }));
+        jPanel4.add(ajustes_compañia, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 110, 300, 40));
+
+        jLabel28.setFont(new java.awt.Font("Helvetica Neue", 1, 20)); // NOI18N
+        jLabel28.setText("Número Incial de Trabajadores");
+        jPanel4.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, -1, -1));
+
+        ajustes_entrega.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_entregaActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_entrega, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 220, 80, 30));
+
+        jLabel29.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel29.setText("Compañía");
+        jPanel4.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 120, -1, -1));
+
+        ajustes_ensam.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_ensamActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_ensam, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 550, 80, 30));
+
+        jSeparator4.setForeground(new java.awt.Color(102, 0, 102));
+        jPanel4.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 1080, 20));
+
+        jLabel31.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel31.setText("Días para la entrega de computadoras");
+        jPanel4.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 220, -1, -1));
+
+        jLabel32.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel32.setText("Productores de Fuente de Alimentación");
+        jPanel4.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 420, 360, -1));
+
+        jLabel33.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel33.setText("Productores de Tarjetas Gráficas");
+        jPanel4.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 490, 350, -1));
+
+        jLabel34.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel34.setText("Productores de Placa Base");
+        jPanel4.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 420, 270, -1));
+
+        jLabel35.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel35.setText("Productores de CPU");
+        jPanel4.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 550, 220, -1));
+
+        jLabel36.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel36.setText("Productores de RAM");
+        jPanel4.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 490, 220, -1));
+
+        jLabel37.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel37.setText("Ensambladores");
+        jPanel4.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 550, 180, -1));
+
+        ajustes_dias_eq1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_dias_eq1ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_dias_eq1, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 170, 80, 30));
+
+        ajustes_fuentes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_fuentesActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 420, 80, 30));
+
+        ajustes_tarjetas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_tarjetasActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 490, 80, 30));
+
+        ajustes_cpu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_cpuActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 550, 80, 30));
+
+        ajustes_placa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_placaActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 420, 80, 30));
+
+        ajustes_RAM.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ajustes_RAMActionPerformed(evt);
+            }
+        });
+        jPanel4.add(ajustes_RAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 490, 80, 30));
+
+        jButton1.setBackground(new java.awt.Color(102, 0, 102));
+        jButton1.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(102, 0, 102));
+        jButton1.setText("Guardar");
+        jPanel4.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 640, 440, 40));
+
+        jLabel30.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        jLabel30.setText("Equivalente a un día en segundos ");
+        jPanel4.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 170, -1, -1));
+
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Media/settings-gears (1).png"))); // NOI18N
+        jPanel4.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, -1, -1));
 
         jTabbedPane5.addTab("Ajustes", jPanel4);
 
@@ -1075,6 +1205,38 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_apple_mas_fuentesActionPerformed
 
+    private void ajustes_entregaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_entregaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_entregaActionPerformed
+
+    private void ajustes_ensamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_ensamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_ensamActionPerformed
+
+    private void ajustes_dias_eq1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_dias_eq1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_dias_eq1ActionPerformed
+
+    private void ajustes_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_fuentesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_fuentesActionPerformed
+
+    private void ajustes_tarjetasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_tarjetasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_tarjetasActionPerformed
+
+    private void ajustes_cpuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_cpuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_cpuActionPerformed
+
+    private void ajustes_placaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_placaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_placaActionPerformed
+
+    private void ajustes_RAMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ajustes_RAMActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ajustes_RAMActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1111,6 +1273,15 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField ajustes_RAM;
+    private javax.swing.JComboBox<String> ajustes_compañia;
+    private javax.swing.JTextField ajustes_cpu;
+    private javax.swing.JTextField ajustes_dias_eq1;
+    private javax.swing.JTextField ajustes_ensam;
+    private javax.swing.JTextField ajustes_entrega;
+    private javax.swing.JTextField ajustes_fuentes;
+    private javax.swing.JTextField ajustes_placa;
+    private javax.swing.JTextField ajustes_tarjetas;
     private javax.swing.JLabel apple_cant_cpu;
     private javax.swing.JLabel apple_cant_ensambladores;
     private javax.swing.JLabel apple_cant_fuentes;
@@ -1197,6 +1368,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel dell_totalCost;
     private javax.swing.JLabel dell_totalEarnings;
     private javax.swing.JButton dell_ver_grafico;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -1219,7 +1391,19 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel51;
@@ -1257,6 +1441,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
