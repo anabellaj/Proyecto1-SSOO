@@ -33,69 +33,150 @@ public class Menu extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        dell_inicio_simulacion = new javax.swing.JButton();
+        jLabel51 = new javax.swing.JLabel();
+        jSeparator7 = new javax.swing.JSeparator();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        dell_cant_placa = new javax.swing.JLabel();
+        dell_ver_grafico = new javax.swing.JButton();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        dell_netProfit = new javax.swing.JLabel();
+        dell_totalCost = new javax.swing.JLabel();
+        dell_totalEarnings = new javax.swing.JLabel();
+        dell_mas_placa = new javax.swing.JButton();
+        dell_menos_placa = new javax.swing.JButton();
+        dell_mas_cpu = new javax.swing.JButton();
+        dell_cant_cpu = new javax.swing.JLabel();
+        dell_menos_cpu = new javax.swing.JButton();
+        dell_mas_ram = new javax.swing.JButton();
+        dell_cant_ram = new javax.swing.JLabel();
+        dell_menos_ram = new javax.swing.JButton();
+        dell_mas_fuentes = new javax.swing.JButton();
+        dell_menos_fuentes = new javax.swing.JButton();
+        dell_mas_tarjetas = new javax.swing.JButton();
+        dell_cant_tarjetas = new javax.swing.JLabel();
+        dell_menos_tarjetas = new javax.swing.JButton();
+        jLabel59 = new javax.swing.JLabel();
+        dell_progressBarFuente = new javax.swing.JProgressBar();
+        dell_mas_ensambladores = new javax.swing.JButton();
+        dell_cant_ensambladores = new javax.swing.JLabel();
+        dell_menos_ensambladores = new javax.swing.JButton();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        dell_cant_fuentes = new javax.swing.JLabel();
+        dell_gastosTarjeta = new javax.swing.JLabel();
+        maxCPU2 = new javax.swing.JLabel();
+        dell_progressBarCPU = new javax.swing.JProgressBar();
+        dell_progressBarRam = new javax.swing.JProgressBar();
+        maxRAM2 = new javax.swing.JLabel();
+        dell_progressBarPlaca = new javax.swing.JProgressBar();
+        maxPlaca2 = new javax.swing.JLabel();
+        dell_progressBarTarjetas = new javax.swing.JProgressBar();
+        maxTarjetas2 = new javax.swing.JLabel();
+        maxFuente2 = new javax.swing.JLabel();
+        dell_gastosEnsambladores = new javax.swing.JLabel();
+        dell_gastosRAM = new javax.swing.JLabel();
+        dell_gastosPlaca = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        dell_gastosCPU = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        dell_dayCounter = new javax.swing.JLabel();
+        dell_gastosPM = new javax.swing.JLabel();
+        label11 = new javax.swing.JLabel();
+        dell_faltasPM = new javax.swing.JLabel();
+        dell_gastosDirector = new javax.swing.JLabel();
+        dell_gastosFuente = new javax.swing.JLabel();
+        label12 = new javax.swing.JLabel();
+        dell_salarioDescontado = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jSeparator8 = new javax.swing.JSeparator();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jSeparator9 = new javax.swing.JSeparator();
+        dell_statusDir = new javax.swing.JLabel();
+        label26 = new javax.swing.JLabel();
+        label27 = new javax.swing.JLabel();
+        label28 = new javax.swing.JLabel();
+        label14 = new javax.swing.JLabel();
+        dell_statusPM = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        dell_compVendidas = new javax.swing.JLabel();
+        dell_compTarjeta = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        inicio_simulacion = new javax.swing.JButton();
+        apple_inicio_simulacion = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        cant_placa = new javax.swing.JLabel();
-        ver_grafico = new javax.swing.JButton();
+        apple_cant_placa = new javax.swing.JLabel();
+        apple_ver_grafico = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        netProfit = new javax.swing.JLabel();
-        totalCost = new javax.swing.JLabel();
-        totalEarnings = new javax.swing.JLabel();
-        mas_placa = new javax.swing.JButton();
-        menos_placa1 = new javax.swing.JButton();
-        mas_cpu = new javax.swing.JButton();
-        cant_cpu = new javax.swing.JLabel();
-        menos_cpu = new javax.swing.JButton();
-        mas_ram = new javax.swing.JButton();
-        cant_ram = new javax.swing.JLabel();
-        menos_ram = new javax.swing.JButton();
-        mas_fuentes = new javax.swing.JButton();
-        menos_fuentes = new javax.swing.JButton();
-        mas_tarjetas = new javax.swing.JButton();
-        cant_tarjetas = new javax.swing.JLabel();
-        menos_tarjetas = new javax.swing.JButton();
+        apple_netProfit = new javax.swing.JLabel();
+        apple_totalCost = new javax.swing.JLabel();
+        apple_totalEarnings = new javax.swing.JLabel();
+        apple_mas_placa = new javax.swing.JButton();
+        apple_menos_placa = new javax.swing.JButton();
+        apple_mas_cpu = new javax.swing.JButton();
+        apple_cant_cpu = new javax.swing.JLabel();
+        apple_menos_cpu = new javax.swing.JButton();
+        apple_mas_ram = new javax.swing.JButton();
+        apple_cant_ram = new javax.swing.JLabel();
+        apple_menos_ram = new javax.swing.JButton();
+        apple_mas_fuentes = new javax.swing.JButton();
+        apple_menos_fuentes = new javax.swing.JButton();
+        apple_mas_tarjetas = new javax.swing.JButton();
+        apple_cant_tarjetas = new javax.swing.JLabel();
+        apple_menos_tarjetas = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
-        progressBarFuente = new javax.swing.JProgressBar();
-        mas_ensambladores = new javax.swing.JButton();
-        cant_ensambladores = new javax.swing.JLabel();
-        menos_ensambladores = new javax.swing.JButton();
+        apple_progressBarFuente = new javax.swing.JProgressBar();
+        apple_mas_ensambladores = new javax.swing.JButton();
+        apple_cant_ensambladores = new javax.swing.JLabel();
+        apple_menos_ensambladores = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        cant_fuentes = new javax.swing.JLabel();
-        gastosTarjeta = new javax.swing.JLabel();
+        apple_cant_fuentes = new javax.swing.JLabel();
+        apple_gastosTarjeta = new javax.swing.JLabel();
         maxCPU = new javax.swing.JLabel();
-        progressBarCPU = new javax.swing.JProgressBar();
-        progressBarRam = new javax.swing.JProgressBar();
+        apple_progressBarCPU = new javax.swing.JProgressBar();
+        apple_progressBarRam = new javax.swing.JProgressBar();
         maxRAM = new javax.swing.JLabel();
-        progressBarPlaca = new javax.swing.JProgressBar();
+        apple_progressBarPlaca = new javax.swing.JProgressBar();
         maxPlaca = new javax.swing.JLabel();
-        progressBarTarjetas = new javax.swing.JProgressBar();
+        apple_progressBarTarjetas = new javax.swing.JProgressBar();
         maxTarjetas = new javax.swing.JLabel();
         maxFuente = new javax.swing.JLabel();
-        gastosEnsambladores = new javax.swing.JLabel();
-        gastosRAM = new javax.swing.JLabel();
-        gastosPlaca = new javax.swing.JLabel();
+        apple_gastosEnsambladores = new javax.swing.JLabel();
+        apple_gastosRAM = new javax.swing.JLabel();
+        apple_gastosPlaca = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        gastosCPU = new javax.swing.JLabel();
+        apple_gastosCPU = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        dayCounter = new javax.swing.JLabel();
-        gastosPM = new javax.swing.JLabel();
+        apple_dayCounter = new javax.swing.JLabel();
+        apple_gastosPM = new javax.swing.JLabel();
         label5 = new javax.swing.JLabel();
-        faltasPM = new javax.swing.JLabel();
-        gastosDirector = new javax.swing.JLabel();
-        gastosFuente = new javax.swing.JLabel();
+        apple_faltasPM = new javax.swing.JLabel();
+        apple_gastosDirector = new javax.swing.JLabel();
+        apple_gastosFuente = new javax.swing.JLabel();
         label6 = new javax.swing.JLabel();
-        salarioDescontado = new javax.swing.JLabel();
+        apple_salarioDescontado = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
         jLabel17 = new javax.swing.JLabel();
@@ -104,18 +185,19 @@ public class Menu extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
-        label1 = new javax.swing.JLabel();
+        apple_statusDir = new javax.swing.JLabel();
         label20 = new javax.swing.JLabel();
         label21 = new javax.swing.JLabel();
         label22 = new javax.swing.JLabel();
         label2 = new javax.swing.JLabel();
-        label3 = new javax.swing.JLabel();
+        apple_statusPM = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        compVendidas = new javax.swing.JLabel();
-        compTarjeta = new javax.swing.JLabel();
+        apple_compVendidas = new javax.swing.JLabel();
+        apple_compTarjeta = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,31 +251,423 @@ public class Menu extends javax.swing.JFrame {
 
         jTabbedPane5.addTab("Menú Principal", jPanel1);
 
+        jPanel5.setBackground(new java.awt.Color(0, 0, 102));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        dell_inicio_simulacion.setText("Iniciar Simulación");
+        dell_inicio_simulacion.setBorderPainted(false);
+        dell_inicio_simulacion.setOpaque(true);
+        jPanel5.add(dell_inicio_simulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 170, 40));
+
+        jLabel51.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel51.setText("Director");
+        jPanel5.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 690, -1, -1));
+
+        jSeparator7.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 760, 20));
+
+        jLabel52.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel52.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel52.setText("Productores de Tarjetas Gráficas");
+        jPanel5.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 300, -1));
+
+        jLabel53.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel53.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel53.setText("Productores de CPU");
+        jPanel5.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 200, -1, -1));
+
+        jLabel54.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel54.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel54.setText("Productores de RAM");
+        jPanel5.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 200, -1, -1));
+
+        jLabel55.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel55.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel55.setText("Productores de Placa Base");
+        jPanel5.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, 220, -1));
+
+        dell_cant_placa.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_placa.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_placa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_placa.setText("0");
+        jPanel5.add(dell_cant_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, 30, -1));
+
+        dell_ver_grafico.setText("Ver Gráfico");
+        dell_ver_grafico.setBorderPainted(false);
+        dell_ver_grafico.setOpaque(true);
+        dell_ver_grafico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dell_ver_graficoActionPerformed(evt);
+            }
+        });
+        jPanel5.add(dell_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 80, 170, 40));
+
+        jLabel56.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel56.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel56.setText("Ganancias:");
+        jPanel5.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 100, -1, -1));
+
+        jLabel57.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel57.setText("Gastos totales:");
+        jPanel5.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 20, -1, -1));
+
+        jLabel58.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel58.setText("Ingresos totales:");
+        jPanel5.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, -1, -1));
+
+        dell_netProfit.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_netProfit.setForeground(new java.awt.Color(153, 255, 102));
+        dell_netProfit.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        dell_netProfit.setText("0");
+        jPanel5.add(dell_netProfit, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 100, 120, -1));
+
+        dell_totalCost.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_totalCost.setForeground(new java.awt.Color(255, 51, 51));
+        dell_totalCost.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        dell_totalCost.setText("0");
+        jPanel5.add(dell_totalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 20, 90, -1));
+
+        dell_totalEarnings.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_totalEarnings.setForeground(new java.awt.Color(153, 255, 102));
+        dell_totalEarnings.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        dell_totalEarnings.setText("0");
+        jPanel5.add(dell_totalEarnings, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 60, 80, -1));
+
+        dell_mas_placa.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_placa.setText("+");
+        jPanel5.add(dell_mas_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 20, -1));
+
+        dell_menos_placa.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_placa.setText("-");
+        jPanel5.add(dell_menos_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 20, -1));
+
+        dell_mas_cpu.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_cpu.setText("+");
+        jPanel5.add(dell_mas_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 230, 20, -1));
+
+        dell_cant_cpu.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_cpu.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_cpu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_cpu.setText("0");
+        jPanel5.add(dell_cant_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 230, 30, -1));
+
+        dell_menos_cpu.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_cpu.setText("-");
+        jPanel5.add(dell_menos_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 230, 20, -1));
+
+        dell_mas_ram.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_ram.setText("+");
+        jPanel5.add(dell_mas_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 230, 20, -1));
+
+        dell_cant_ram.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_ram.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_ram.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_ram.setText("0");
+        jPanel5.add(dell_cant_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 230, 30, -1));
+
+        dell_menos_ram.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_ram.setText("-");
+        jPanel5.add(dell_menos_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 230, 20, -1));
+
+        dell_mas_fuentes.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_fuentes.setText("+");
+        jPanel5.add(dell_mas_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 20, -1));
+
+        dell_menos_fuentes.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_fuentes.setText("-");
+        dell_menos_fuentes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dell_menos_fuentesActionPerformed(evt);
+            }
+        });
+        jPanel5.add(dell_menos_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 20, -1));
+
+        dell_mas_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_tarjetas.setText("+");
+        jPanel5.add(dell_mas_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 360, 20, -1));
+
+        dell_cant_tarjetas.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_tarjetas.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_tarjetas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_tarjetas.setText("0");
+        jPanel5.add(dell_cant_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 30, -1));
+
+        dell_menos_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_tarjetas.setText("-");
+        jPanel5.add(dell_menos_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 20, -1));
+
+        jLabel59.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
+        jLabel59.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel59.setText("Manejador de Trabajadores");
+        jPanel5.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
+
+        dell_progressBarFuente.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(dell_progressBarFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 510, 100, 20));
+
+        dell_mas_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
+        dell_mas_ensambladores.setText("+");
+        jPanel5.add(dell_mas_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 360, 20, -1));
+
+        dell_cant_ensambladores.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_ensambladores.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_ensambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_ensambladores.setText("0");
+        jPanel5.add(dell_cant_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 360, 30, -1));
+
+        dell_menos_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
+        dell_menos_ensambladores.setText("-");
+        jPanel5.add(dell_menos_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 360, 20, -1));
+
+        jLabel60.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel60.setText("Ensambladores");
+        jPanel5.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 330, -1, -1));
+
+        jLabel61.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel61.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel61.setText("Placa Base");
+        jPanel5.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 510, 200, -1));
+
+        dell_cant_fuentes.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        dell_cant_fuentes.setForeground(new java.awt.Color(255, 255, 255));
+        dell_cant_fuentes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_cant_fuentes.setText("0");
+        jPanel5.add(dell_cant_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 30, -1));
+
+        dell_gastosTarjeta.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosTarjeta.setText("0 $");
+        jPanel5.add(dell_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 160, -1));
+
+        maxCPU2.setForeground(new java.awt.Color(255, 255, 255));
+        maxCPU2.setText("max. 20");
+        jPanel5.add(maxCPU2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 550, 60, -1));
+
+        dell_progressBarCPU.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(dell_progressBarCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 550, 100, 20));
+
+        dell_progressBarRam.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(dell_progressBarRam, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 510, 100, 20));
+
+        maxRAM2.setForeground(new java.awt.Color(255, 255, 255));
+        maxRAM2.setText("max. 55");
+        jPanel5.add(maxRAM2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 510, 60, -1));
+
+        dell_progressBarPlaca.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(dell_progressBarPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 510, 100, 20));
+
+        maxPlaca2.setForeground(new java.awt.Color(255, 255, 255));
+        maxPlaca2.setText("max. 25");
+        jPanel5.add(maxPlaca2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 510, 60, -1));
+
+        dell_progressBarTarjetas.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(dell_progressBarTarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 550, 100, 20));
+
+        maxTarjetas2.setForeground(new java.awt.Color(255, 255, 255));
+        maxTarjetas2.setText("max. 10");
+        jPanel5.add(maxTarjetas2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 550, 100, -1));
+
+        maxFuente2.setForeground(new java.awt.Color(255, 255, 255));
+        maxFuente2.setText("max. 35");
+        jPanel5.add(maxFuente2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 510, 70, -1));
+
+        dell_gastosEnsambladores.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosEnsambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosEnsambladores.setText("0 $");
+        jPanel5.add(dell_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 160, -1));
+
+        dell_gastosRAM.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosRAM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosRAM.setText("0 $");
+        jPanel5.add(dell_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, 140, -1));
+
+        dell_gastosPlaca.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosPlaca.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosPlaca.setText("0 $");
+        jPanel5.add(dell_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 160, -1));
+
+        jLabel62.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
+        jLabel62.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel62.setText("Project Manager");
+        jPanel5.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, -1, -1));
+
+        dell_gastosCPU.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosCPU.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosCPU.setText("0 $");
+        jPanel5.add(dell_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 270, 140, -1));
+
+        jLabel63.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel63.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel63.setText("Day Counter");
+        jPanel5.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, -1, -1));
+
+        dell_dayCounter.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        dell_dayCounter.setForeground(new java.awt.Color(255, 255, 255));
+        dell_dayCounter.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_dayCounter.setText("0");
+        jPanel5.add(dell_dayCounter, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 90, -1));
+
+        dell_gastosPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_gastosPM.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosPM.setText("0 $");
+        jPanel5.add(dell_gastosPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 650, 90, -1));
+
+        label11.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label11.setForeground(new java.awt.Color(255, 255, 255));
+        label11.setText("Faltas");
+        jPanel5.add(label11, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 650, 50, -1));
+
+        dell_faltasPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_faltasPM.setForeground(new java.awt.Color(255, 255, 255));
+        dell_faltasPM.setText("0");
+        jPanel5.add(dell_faltasPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 650, 40, -1));
+
+        dell_gastosDirector.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_gastosDirector.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosDirector.setText("0 $");
+        jPanel5.add(dell_gastosDirector, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 690, 90, -1));
+
+        dell_gastosFuente.setForeground(new java.awt.Color(255, 255, 255));
+        dell_gastosFuente.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_gastosFuente.setText("0 $");
+        jPanel5.add(dell_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 120, -1));
+
+        label12.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label12.setForeground(new java.awt.Color(255, 255, 255));
+        label12.setText("Descontado");
+        jPanel5.add(label12, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 650, 90, -1));
+
+        dell_salarioDescontado.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_salarioDescontado.setForeground(new java.awt.Color(255, 255, 255));
+        dell_salarioDescontado.setText("0 $");
+        jPanel5.add(dell_salarioDescontado, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 650, 80, -1));
+
+        jLabel64.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel64.setText("Productores de Fuente de Alimentación");
+        jPanel5.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, 310, -1));
+
+        jSeparator8.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 610, 1100, 20));
+
+        jLabel65.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel65.setText("Almacenamiento");
+        jPanel5.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
+
+        jLabel66.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel66.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel66.setText("Fuente de Alimentación");
+        jPanel5.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 510, 200, -1));
+
+        jLabel67.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel67.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel67.setText("CPU");
+        jPanel5.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 550, 200, -1));
+
+        jLabel68.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel68.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel68.setText("RAM");
+        jPanel5.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 510, 200, -1));
+
+        jLabel69.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        jLabel69.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel69.setText("Tarjetas Gráficas");
+        jPanel5.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 550, 200, -1));
+
+        jSeparator9.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel5.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 890, 20));
+
+        dell_statusDir.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_statusDir.setForeground(new java.awt.Color(255, 255, 255));
+        dell_statusDir.setText("\"\"");
+        jPanel5.add(dell_statusDir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 690, 70, -1));
+
+        label26.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label26.setForeground(new java.awt.Color(255, 255, 255));
+        label26.setText("Salario");
+        jPanel5.add(label26, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 650, 60, -1));
+
+        label27.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label27.setForeground(new java.awt.Color(255, 255, 255));
+        label27.setText("Estatus:");
+        jPanel5.add(label27, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 690, 60, -1));
+
+        label28.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label28.setForeground(new java.awt.Color(255, 255, 255));
+        label28.setText("Salario");
+        jPanel5.add(label28, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 690, 60, -1));
+
+        label14.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        label14.setForeground(new java.awt.Color(255, 255, 255));
+        label14.setText("Estatus:");
+        jPanel5.add(label14, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 650, 70, -1));
+
+        dell_statusPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        dell_statusPM.setForeground(new java.awt.Color(255, 255, 255));
+        dell_statusPM.setText("\"\"");
+        jPanel5.add(dell_statusPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 70, -1));
+
+        jLabel70.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel70.setText("Vendidas");
+        jPanel5.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, 100, -1));
+
+        dell_compVendidas.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        dell_compVendidas.setForeground(new java.awt.Color(255, 255, 255));
+        dell_compVendidas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_compVendidas.setText("0");
+        jPanel5.add(dell_compVendidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 150, -1));
+
+        dell_compTarjeta.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        dell_compTarjeta.setForeground(new java.awt.Color(255, 255, 255));
+        dell_compTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_compTarjeta.setText("0");
+        jPanel5.add(dell_compTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 80, 130, -1));
+
+        jLabel71.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel71.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel71.setText("Computadoras");
+        jPanel5.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, 140, -1));
+
+        jLabel72.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel72.setText("Computadoras");
+        jPanel5.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 30, 140, -1));
+
+        jLabel73.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        jLabel73.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel73.setText("Tarjeta Gráfica");
+        jPanel5.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 50, 140, -1));
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Media/Dell Logo.png"))); // NOI18N
+        jPanel5.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 130, 120));
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 1170, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel3Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 1170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 782, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel3Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 782, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         jTabbedPane5.addTab("Dell", jPanel3);
-
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1170, Short.MAX_VALUE)
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 782, Short.MAX_VALUE)
-        );
-
-        jTabbedPane5.addTab("Ajustes", jPanel4);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -201,11 +675,11 @@ public class Menu extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Media/Apple Logo.png"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
-        inicio_simulacion.setBackground(new java.awt.Color(204, 204, 204));
-        inicio_simulacion.setText("Iniciar Simulación");
-        inicio_simulacion.setBorderPainted(false);
-        inicio_simulacion.setOpaque(true);
-        jPanel2.add(inicio_simulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 170, 40));
+        apple_inicio_simulacion.setBackground(new java.awt.Color(204, 204, 204));
+        apple_inicio_simulacion.setText("Iniciar Simulación");
+        apple_inicio_simulacion.setBorderPainted(false);
+        apple_inicio_simulacion.setOpaque(true);
+        jPanel2.add(apple_inicio_simulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 170, 40));
 
         jLabel3.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel3.setText("Director");
@@ -230,21 +704,21 @@ public class Menu extends javax.swing.JFrame {
         jLabel8.setText("Productores de Placa Base");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, 220, -1));
 
-        cant_placa.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_placa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_placa.setText("0");
-        jPanel2.add(cant_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, 30, -1));
+        apple_cant_placa.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_placa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_placa.setText("0");
+        jPanel2.add(apple_cant_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, 30, -1));
 
-        ver_grafico.setBackground(new java.awt.Color(204, 204, 204));
-        ver_grafico.setText("Ver Gráfico");
-        ver_grafico.setBorderPainted(false);
-        ver_grafico.setOpaque(true);
-        ver_grafico.addActionListener(new java.awt.event.ActionListener() {
+        apple_ver_grafico.setBackground(new java.awt.Color(204, 204, 204));
+        apple_ver_grafico.setText("Ver Gráfico");
+        apple_ver_grafico.setBorderPainted(false);
+        apple_ver_grafico.setOpaque(true);
+        apple_ver_grafico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ver_graficoActionPerformed(evt);
+                apple_ver_graficoActionPerformed(evt);
             }
         });
-        jPanel2.add(ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 170, 40));
+        jPanel2.add(apple_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 170, 40));
 
         jLabel5.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel5.setText("Ganancias:");
@@ -258,101 +732,106 @@ public class Menu extends javax.swing.JFrame {
         jLabel14.setText("Ingresos totales:");
         jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 60, -1, -1));
 
-        netProfit.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        netProfit.setForeground(new java.awt.Color(153, 255, 102));
-        netProfit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        netProfit.setText("0");
-        jPanel2.add(netProfit, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 100, 120, -1));
+        apple_netProfit.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_netProfit.setForeground(new java.awt.Color(153, 255, 102));
+        apple_netProfit.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        apple_netProfit.setText("0");
+        jPanel2.add(apple_netProfit, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 100, 120, -1));
 
-        totalCost.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        totalCost.setForeground(new java.awt.Color(255, 51, 51));
-        totalCost.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        totalCost.setText("0");
-        jPanel2.add(totalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 20, 120, -1));
+        apple_totalCost.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_totalCost.setForeground(new java.awt.Color(255, 51, 51));
+        apple_totalCost.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        apple_totalCost.setText("0");
+        jPanel2.add(apple_totalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 20, 90, -1));
 
-        totalEarnings.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        totalEarnings.setForeground(new java.awt.Color(153, 255, 102));
-        totalEarnings.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        totalEarnings.setText("0");
-        jPanel2.add(totalEarnings, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 60, 120, -1));
+        apple_totalEarnings.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_totalEarnings.setForeground(new java.awt.Color(153, 255, 102));
+        apple_totalEarnings.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        apple_totalEarnings.setText("0");
+        jPanel2.add(apple_totalEarnings, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 60, 80, -1));
 
-        mas_placa.setBackground(new java.awt.Color(204, 204, 204));
-        mas_placa.setText("+");
-        jPanel2.add(mas_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 20, -1));
+        apple_mas_placa.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_placa.setText("+");
+        jPanel2.add(apple_mas_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 20, -1));
 
-        menos_placa1.setBackground(new java.awt.Color(204, 204, 204));
-        menos_placa1.setText("-");
-        jPanel2.add(menos_placa1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 20, -1));
+        apple_menos_placa.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_placa.setText("-");
+        jPanel2.add(apple_menos_placa, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 20, -1));
 
-        mas_cpu.setBackground(new java.awt.Color(204, 204, 204));
-        mas_cpu.setText("+");
-        jPanel2.add(mas_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 230, 20, -1));
+        apple_mas_cpu.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_cpu.setText("+");
+        jPanel2.add(apple_mas_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 230, 20, -1));
 
-        cant_cpu.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_cpu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_cpu.setText("0");
-        jPanel2.add(cant_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 230, 30, -1));
+        apple_cant_cpu.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_cpu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_cpu.setText("0");
+        jPanel2.add(apple_cant_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 230, 30, -1));
 
-        menos_cpu.setBackground(new java.awt.Color(204, 204, 204));
-        menos_cpu.setText("-");
-        jPanel2.add(menos_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 230, 20, -1));
+        apple_menos_cpu.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_cpu.setText("-");
+        jPanel2.add(apple_menos_cpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 230, 20, -1));
 
-        mas_ram.setBackground(new java.awt.Color(204, 204, 204));
-        mas_ram.setText("+");
-        jPanel2.add(mas_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 230, 20, -1));
+        apple_mas_ram.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_ram.setText("+");
+        jPanel2.add(apple_mas_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 230, 20, -1));
 
-        cant_ram.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_ram.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_ram.setText("0");
-        jPanel2.add(cant_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 230, 30, -1));
+        apple_cant_ram.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_ram.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_ram.setText("0");
+        jPanel2.add(apple_cant_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 230, 30, -1));
 
-        menos_ram.setBackground(new java.awt.Color(204, 204, 204));
-        menos_ram.setText("-");
-        jPanel2.add(menos_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 230, 20, -1));
+        apple_menos_ram.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_ram.setText("-");
+        jPanel2.add(apple_menos_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 230, 20, -1));
 
-        mas_fuentes.setBackground(new java.awt.Color(204, 204, 204));
-        mas_fuentes.setText("+");
-        jPanel2.add(mas_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 20, -1));
-
-        menos_fuentes.setBackground(new java.awt.Color(204, 204, 204));
-        menos_fuentes.setText("-");
-        menos_fuentes.addActionListener(new java.awt.event.ActionListener() {
+        apple_mas_fuentes.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_fuentes.setText("+");
+        apple_mas_fuentes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menos_fuentesActionPerformed(evt);
+                apple_mas_fuentesActionPerformed(evt);
             }
         });
-        jPanel2.add(menos_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 20, -1));
+        jPanel2.add(apple_mas_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 20, -1));
 
-        mas_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
-        mas_tarjetas.setText("+");
-        jPanel2.add(mas_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 360, 20, -1));
+        apple_menos_fuentes.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_fuentes.setText("-");
+        apple_menos_fuentes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                apple_menos_fuentesActionPerformed(evt);
+            }
+        });
+        jPanel2.add(apple_menos_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 20, -1));
 
-        cant_tarjetas.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_tarjetas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_tarjetas.setText("0");
-        jPanel2.add(cant_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 30, -1));
+        apple_mas_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_tarjetas.setText("+");
+        jPanel2.add(apple_mas_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 360, 20, -1));
 
-        menos_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
-        menos_tarjetas.setText("-");
-        jPanel2.add(menos_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 20, -1));
+        apple_cant_tarjetas.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_tarjetas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_tarjetas.setText("0");
+        jPanel2.add(apple_cant_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 30, -1));
+
+        apple_menos_tarjetas.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_tarjetas.setText("-");
+        jPanel2.add(apple_menos_tarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 20, -1));
 
         jLabel9.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         jLabel9.setText("Manejador de Trabajadores");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
-        jPanel2.add(progressBarFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 510, 100, 20));
+        jPanel2.add(apple_progressBarFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 510, 100, 20));
 
-        mas_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
-        mas_ensambladores.setText("+");
-        jPanel2.add(mas_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 360, 20, -1));
+        apple_mas_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
+        apple_mas_ensambladores.setText("+");
+        jPanel2.add(apple_mas_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 360, 20, -1));
 
-        cant_ensambladores.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_ensambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_ensambladores.setText("0");
-        jPanel2.add(cant_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 360, 30, -1));
+        apple_cant_ensambladores.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_ensambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_ensambladores.setText("0");
+        jPanel2.add(apple_cant_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 360, 30, -1));
 
-        menos_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
-        menos_ensambladores.setText("-");
-        jPanel2.add(menos_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 360, 20, -1));
+        apple_menos_ensambladores.setBackground(new java.awt.Color(204, 204, 204));
+        apple_menos_ensambladores.setText("-");
+        jPanel2.add(apple_menos_ensambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 360, 20, -1));
 
         jLabel11.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         jLabel11.setText("Ensambladores");
@@ -362,27 +841,27 @@ public class Menu extends javax.swing.JFrame {
         jLabel12.setText("Placa Base");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 510, 200, -1));
 
-        cant_fuentes.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        cant_fuentes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cant_fuentes.setText("0");
-        jPanel2.add(cant_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 30, -1));
+        apple_cant_fuentes.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        apple_cant_fuentes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_cant_fuentes.setText("0");
+        jPanel2.add(apple_cant_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 30, -1));
 
-        gastosTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosTarjeta.setText("0 $");
-        jPanel2.add(gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 160, -1));
+        apple_gastosTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosTarjeta.setText("0 $");
+        jPanel2.add(apple_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 160, -1));
 
         maxCPU.setText("max. 20");
         jPanel2.add(maxCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 550, 60, -1));
-        jPanel2.add(progressBarCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 550, 100, 20));
-        jPanel2.add(progressBarRam, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 510, 100, 20));
+        jPanel2.add(apple_progressBarCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 550, 100, 20));
+        jPanel2.add(apple_progressBarRam, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 510, 100, 20));
 
         maxRAM.setText("max. 55");
         jPanel2.add(maxRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 510, 60, -1));
-        jPanel2.add(progressBarPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 510, 100, 20));
+        jPanel2.add(apple_progressBarPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 510, 100, 20));
 
         maxPlaca.setText("max. 25");
         jPanel2.add(maxPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 510, 60, -1));
-        jPanel2.add(progressBarTarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 550, 100, 20));
+        jPanel2.add(apple_progressBarTarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 550, 100, 20));
 
         maxTarjetas.setText("max. 10");
         jPanel2.add(maxTarjetas, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 550, 100, -1));
@@ -390,62 +869,62 @@ public class Menu extends javax.swing.JFrame {
         maxFuente.setText("max. 35");
         jPanel2.add(maxFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 510, 70, -1));
 
-        gastosEnsambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosEnsambladores.setText("0 $");
-        jPanel2.add(gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 160, -1));
+        apple_gastosEnsambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosEnsambladores.setText("0 $");
+        jPanel2.add(apple_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 160, -1));
 
-        gastosRAM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosRAM.setText("0 $");
-        jPanel2.add(gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, 140, -1));
+        apple_gastosRAM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosRAM.setText("0 $");
+        jPanel2.add(apple_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, 140, -1));
 
-        gastosPlaca.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosPlaca.setText("0 $");
-        jPanel2.add(gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 160, -1));
+        apple_gastosPlaca.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosPlaca.setText("0 $");
+        jPanel2.add(apple_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 160, -1));
 
         jLabel10.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel10.setText("Project Manager");
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, -1, -1));
 
-        gastosCPU.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosCPU.setText("0 $");
-        jPanel2.add(gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 270, 140, -1));
+        apple_gastosCPU.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosCPU.setText("0 $");
+        jPanel2.add(apple_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 270, 140, -1));
 
         jLabel15.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel15.setText("Day Counter");
         jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, -1, -1));
 
-        dayCounter.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
-        dayCounter.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dayCounter.setText("0");
-        jPanel2.add(dayCounter, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 90, -1));
+        apple_dayCounter.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        apple_dayCounter.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_dayCounter.setText("0");
+        jPanel2.add(apple_dayCounter, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, 90, -1));
 
-        gastosPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        gastosPM.setText("0 $");
-        jPanel2.add(gastosPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 650, 90, -1));
+        apple_gastosPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_gastosPM.setText("0 $");
+        jPanel2.add(apple_gastosPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 650, 90, -1));
 
         label5.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label5.setText("Faltas");
         jPanel2.add(label5, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 650, 50, -1));
 
-        faltasPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        faltasPM.setText("0");
-        jPanel2.add(faltasPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 650, 40, -1));
+        apple_faltasPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_faltasPM.setText("0");
+        jPanel2.add(apple_faltasPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 650, 40, -1));
 
-        gastosDirector.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        gastosDirector.setText("0 $");
-        jPanel2.add(gastosDirector, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 690, 90, -1));
+        apple_gastosDirector.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_gastosDirector.setText("0 $");
+        jPanel2.add(apple_gastosDirector, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 690, 90, -1));
 
-        gastosFuente.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gastosFuente.setText("0 $");
-        jPanel2.add(gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 120, -1));
+        apple_gastosFuente.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_gastosFuente.setText("0 $");
+        jPanel2.add(apple_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 120, -1));
 
         label6.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label6.setText("Descontado");
         jPanel2.add(label6, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 650, 90, -1));
 
-        salarioDescontado.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        salarioDescontado.setText("0 $");
-        jPanel2.add(salarioDescontado, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 650, 80, -1));
+        apple_salarioDescontado.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_salarioDescontado.setText("0 $");
+        jPanel2.add(apple_salarioDescontado, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 650, 80, -1));
 
         jLabel16.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         jLabel16.setText("Productores de Fuente de Alimentación");
@@ -477,9 +956,9 @@ public class Menu extends javax.swing.JFrame {
         jSeparator3.setForeground(new java.awt.Color(102, 0, 102));
         jPanel2.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 890, 20));
 
-        label1.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        label1.setText("\"\"");
-        jPanel2.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 690, 70, -1));
+        apple_statusDir.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_statusDir.setText("\"\"");
+        jPanel2.add(apple_statusDir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 690, 70, -1));
 
         label20.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label20.setText("Salario");
@@ -497,23 +976,23 @@ public class Menu extends javax.swing.JFrame {
         label2.setText("Estatus:");
         jPanel2.add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 650, 70, -1));
 
-        label3.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
-        label3.setText("\"\"");
-        jPanel2.add(label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 70, -1));
+        apple_statusPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
+        apple_statusPM.setText("\"\"");
+        jPanel2.add(apple_statusPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 70, -1));
 
         jLabel22.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel22.setText("Vendidas");
         jPanel2.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, 100, -1));
 
-        compVendidas.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
-        compVendidas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        compVendidas.setText("0");
-        jPanel2.add(compVendidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 150, -1));
+        apple_compVendidas.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        apple_compVendidas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_compVendidas.setText("0");
+        jPanel2.add(apple_compVendidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 150, -1));
 
-        compTarjeta.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
-        compTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        compTarjeta.setText("0");
-        jPanel2.add(compTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 80, 130, -1));
+        apple_compTarjeta.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        apple_compTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        apple_compTarjeta.setText("0");
+        jPanel2.add(apple_compTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 80, 130, -1));
 
         jLabel24.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel24.setText("Computadoras");
@@ -529,6 +1008,21 @@ public class Menu extends javax.swing.JFrame {
 
         jTabbedPane5.addTab("Apple", jPanel2);
 
+        jPanel4.setBackground(new java.awt.Color(204, 255, 255));
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1170, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 782, Short.MAX_VALUE)
+        );
+
+        jTabbedPane5.addTab("Ajustes", jPanel4);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -536,11 +1030,14 @@ public class Menu extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane5)
-                .addGap(42, 42, 42))
+                .addGap(66, 66, 66))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane5)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane5)
+                .addContainerGap())
         );
 
         pack();
@@ -558,13 +1055,25 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ver_graficoActionPerformed
+    private void apple_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_ver_graficoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ver_graficoActionPerformed
+    }//GEN-LAST:event_apple_ver_graficoActionPerformed
 
-    private void menos_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menos_fuentesActionPerformed
+    private void apple_menos_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_menos_fuentesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menos_fuentesActionPerformed
+    }//GEN-LAST:event_apple_menos_fuentesActionPerformed
+
+    private void dell_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_ver_graficoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dell_ver_graficoActionPerformed
+
+    private void dell_menos_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_menos_fuentesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dell_menos_fuentesActionPerformed
+
+    private void apple_mas_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_mas_fuentesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_apple_mas_fuentesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -602,25 +1111,92 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel cant_cpu;
-    private javax.swing.JLabel cant_ensambladores;
-    private javax.swing.JLabel cant_fuentes;
-    private javax.swing.JLabel cant_placa;
-    private javax.swing.JLabel cant_ram;
-    private javax.swing.JLabel cant_tarjetas;
-    private javax.swing.JLabel compTarjeta;
-    private javax.swing.JLabel compVendidas;
-    private javax.swing.JLabel dayCounter;
-    private javax.swing.JLabel faltasPM;
-    private javax.swing.JLabel gastosCPU;
-    private javax.swing.JLabel gastosDirector;
-    private javax.swing.JLabel gastosEnsambladores;
-    private javax.swing.JLabel gastosFuente;
-    private javax.swing.JLabel gastosPM;
-    private javax.swing.JLabel gastosPlaca;
-    private javax.swing.JLabel gastosRAM;
-    private javax.swing.JLabel gastosTarjeta;
-    private javax.swing.JButton inicio_simulacion;
+    private javax.swing.JLabel apple_cant_cpu;
+    private javax.swing.JLabel apple_cant_ensambladores;
+    private javax.swing.JLabel apple_cant_fuentes;
+    private javax.swing.JLabel apple_cant_placa;
+    private javax.swing.JLabel apple_cant_ram;
+    private javax.swing.JLabel apple_cant_tarjetas;
+    private javax.swing.JLabel apple_compTarjeta;
+    private javax.swing.JLabel apple_compVendidas;
+    private javax.swing.JLabel apple_dayCounter;
+    private javax.swing.JLabel apple_faltasPM;
+    private javax.swing.JLabel apple_gastosCPU;
+    private javax.swing.JLabel apple_gastosDirector;
+    private javax.swing.JLabel apple_gastosEnsambladores;
+    private javax.swing.JLabel apple_gastosFuente;
+    private javax.swing.JLabel apple_gastosPM;
+    private javax.swing.JLabel apple_gastosPlaca;
+    private javax.swing.JLabel apple_gastosRAM;
+    private javax.swing.JLabel apple_gastosTarjeta;
+    private javax.swing.JButton apple_inicio_simulacion;
+    private javax.swing.JButton apple_mas_cpu;
+    private javax.swing.JButton apple_mas_ensambladores;
+    private javax.swing.JButton apple_mas_fuentes;
+    private javax.swing.JButton apple_mas_placa;
+    private javax.swing.JButton apple_mas_ram;
+    private javax.swing.JButton apple_mas_tarjetas;
+    private javax.swing.JButton apple_menos_cpu;
+    private javax.swing.JButton apple_menos_ensambladores;
+    private javax.swing.JButton apple_menos_fuentes;
+    private javax.swing.JButton apple_menos_placa;
+    private javax.swing.JButton apple_menos_ram;
+    private javax.swing.JButton apple_menos_tarjetas;
+    private javax.swing.JLabel apple_netProfit;
+    private javax.swing.JProgressBar apple_progressBarCPU;
+    private javax.swing.JProgressBar apple_progressBarFuente;
+    private javax.swing.JProgressBar apple_progressBarPlaca;
+    private javax.swing.JProgressBar apple_progressBarRam;
+    private javax.swing.JProgressBar apple_progressBarTarjetas;
+    private javax.swing.JLabel apple_salarioDescontado;
+    private javax.swing.JLabel apple_statusDir;
+    private javax.swing.JLabel apple_statusPM;
+    private javax.swing.JLabel apple_totalCost;
+    private javax.swing.JLabel apple_totalEarnings;
+    private javax.swing.JButton apple_ver_grafico;
+    private javax.swing.JLabel dell_cant_cpu;
+    private javax.swing.JLabel dell_cant_ensambladores;
+    private javax.swing.JLabel dell_cant_fuentes;
+    private javax.swing.JLabel dell_cant_placa;
+    private javax.swing.JLabel dell_cant_ram;
+    private javax.swing.JLabel dell_cant_tarjetas;
+    private javax.swing.JLabel dell_compTarjeta;
+    private javax.swing.JLabel dell_compVendidas;
+    private javax.swing.JLabel dell_dayCounter;
+    private javax.swing.JLabel dell_faltasPM;
+    private javax.swing.JLabel dell_gastosCPU;
+    private javax.swing.JLabel dell_gastosDirector;
+    private javax.swing.JLabel dell_gastosEnsambladores;
+    private javax.swing.JLabel dell_gastosFuente;
+    private javax.swing.JLabel dell_gastosPM;
+    private javax.swing.JLabel dell_gastosPlaca;
+    private javax.swing.JLabel dell_gastosRAM;
+    private javax.swing.JLabel dell_gastosTarjeta;
+    private javax.swing.JButton dell_inicio_simulacion;
+    private javax.swing.JButton dell_mas_cpu;
+    private javax.swing.JButton dell_mas_ensambladores;
+    private javax.swing.JButton dell_mas_fuentes;
+    private javax.swing.JButton dell_mas_placa;
+    private javax.swing.JButton dell_mas_ram;
+    private javax.swing.JButton dell_mas_tarjetas;
+    private javax.swing.JButton dell_menos_cpu;
+    private javax.swing.JButton dell_menos_ensambladores;
+    private javax.swing.JButton dell_menos_fuentes;
+    private javax.swing.JButton dell_menos_placa;
+    private javax.swing.JButton dell_menos_ram;
+    private javax.swing.JButton dell_menos_tarjetas;
+    private javax.swing.JLabel dell_netProfit;
+    private javax.swing.JProgressBar dell_progressBarCPU;
+    private javax.swing.JProgressBar dell_progressBarFuente;
+    private javax.swing.JProgressBar dell_progressBarPlaca;
+    private javax.swing.JProgressBar dell_progressBarRam;
+    private javax.swing.JProgressBar dell_progressBarTarjetas;
+    private javax.swing.JLabel dell_salarioDescontado;
+    private javax.swing.JLabel dell_statusDir;
+    private javax.swing.JLabel dell_statusPM;
+    private javax.swing.JLabel dell_totalCost;
+    private javax.swing.JLabel dell_totalEarnings;
+    private javax.swing.JButton dell_ver_grafico;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -639,58 +1215,73 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTabbedPane jTabbedPane5;
-    private javax.swing.JLabel label1;
+    private javax.swing.JLabel label11;
+    private javax.swing.JLabel label12;
+    private javax.swing.JLabel label14;
     private javax.swing.JLabel label2;
     private javax.swing.JLabel label20;
     private javax.swing.JLabel label21;
     private javax.swing.JLabel label22;
-    private javax.swing.JLabel label3;
+    private javax.swing.JLabel label26;
+    private javax.swing.JLabel label27;
+    private javax.swing.JLabel label28;
     private javax.swing.JLabel label5;
     private javax.swing.JLabel label6;
-    private javax.swing.JButton mas_cpu;
-    private javax.swing.JButton mas_ensambladores;
-    private javax.swing.JButton mas_fuentes;
-    private javax.swing.JButton mas_placa;
-    private javax.swing.JButton mas_ram;
-    private javax.swing.JButton mas_tarjetas;
     private javax.swing.JLabel maxCPU;
+    private javax.swing.JLabel maxCPU2;
     private javax.swing.JLabel maxFuente;
+    private javax.swing.JLabel maxFuente2;
     private javax.swing.JLabel maxPlaca;
+    private javax.swing.JLabel maxPlaca2;
     private javax.swing.JLabel maxRAM;
+    private javax.swing.JLabel maxRAM2;
     private javax.swing.JLabel maxTarjetas;
-    private javax.swing.JButton menos_cpu;
-    private javax.swing.JButton menos_ensambladores;
-    private javax.swing.JButton menos_fuentes;
-    private javax.swing.JButton menos_placa1;
-    private javax.swing.JButton menos_ram;
-    private javax.swing.JButton menos_tarjetas;
-    private javax.swing.JLabel netProfit;
-    private javax.swing.JProgressBar progressBarCPU;
-    private javax.swing.JProgressBar progressBarFuente;
-    private javax.swing.JProgressBar progressBarPlaca;
-    private javax.swing.JProgressBar progressBarRam;
-    private javax.swing.JProgressBar progressBarTarjetas;
-    private javax.swing.JLabel salarioDescontado;
-    private javax.swing.JLabel totalCost;
-    private javax.swing.JLabel totalEarnings;
-    private javax.swing.JButton ver_grafico;
+    private javax.swing.JLabel maxTarjetas2;
     // End of variables declaration//GEN-END:variables
 }
