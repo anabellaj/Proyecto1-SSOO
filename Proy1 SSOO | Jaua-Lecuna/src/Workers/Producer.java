@@ -14,7 +14,7 @@ import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 
 /**
- *
+ * Child class of worker that defines the different producers of a company
  * @author ani
  */
 public class Producer extends Worker {

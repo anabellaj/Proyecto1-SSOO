@@ -8,7 +8,7 @@ import java.util.concurrent.Semaphore;
 
 
 /**
- *
+ * 
  * @author ani
  */
 public class Disk {
@@ -36,8 +36,8 @@ public class Disk {
     private Semaphore costs; 
     
     //workers' status
-    private int directorStatus; 
-    private int projectManagerStatus; 
+    private int directorStatus; //1 working; 0 watching PM
+    private int projectManagerStatus; //1 watching anime; 0 working
     private int faults; //faults given to the PM by the director 
     
     //expenses

@@ -8,7 +8,7 @@ import Disk.Disk;
 import java.util.concurrent.Semaphore;
 
 /**
- *
+ * Class that defines a worker of a company
  * @author ani
  */
 public abstract class Worker extends Thread{
