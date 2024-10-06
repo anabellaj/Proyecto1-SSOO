@@ -6,9 +6,8 @@ package Disk;
 import Workers.WorkerTypes;
 import java.util.concurrent.Semaphore;
 
-
 /**
- *
+ * 
  * @author ani
  */
 public class Disk {
@@ -36,8 +35,8 @@ public class Disk {
     private Semaphore costs; 
     
     //workers' status
-    private int directorStatus; 
-    private int projectManagerStatus; 
+    private int directorStatus; //1 working; 0 watching PM
+    private int projectManagerStatus; //1 watching anime; 0 working
     private int faults; //faults given to the PM by the director 
     
     //expenses
@@ -57,11 +56,11 @@ public class Disk {
   
     
     private int daysCountdown;
-    private int computerSinceGpuComputer =0; //amount of regular computers produced since the last computer with a gpu
+    private int computerSinceGpuComputer = 0; //amount of regular computers produced since the last computer with a gpu
 
     public Disk(int daysCountdown) {
         this.daysCountdown = daysCountdown;
-        this.produced = new Semaphore(1); //Only 1 person can access the resource at the same time
+        this.produced = new Semaphore(1); // Only 1 person can access the resource at the same time
         this.assembleComputer = new Semaphore(1);
         this.daysCounter = new Semaphore(1);
         this.costs = new Semaphore(1);

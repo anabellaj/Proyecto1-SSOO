@@ -2,28 +2,28 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Workers;
+package Companies;
 
 /**
- * Enum class that defines a unique ID for each worker type  
+ * Enum class that defines a unique ID for each company 
  * @author ani
  */
-public enum WorkerTypes {
-    
-    MotherboardProducer(0), CpuProducer(1), PowerSupplyProducer(2), RamProducer(3), GpuProducer(4), Assembler(5), ProjectManager(6), Director(7);
+public enum CompanyType {
+ 
+    // 0: Apple, 1: Dell
+    Apple(0), Dell(1);
     
     private final int id;
     
-    private WorkerTypes(int id){
+    private CompanyType(int id){
         this.id = id;
     }
 
     /**
-     * @returns the id of the corresponding worker 
+     * @return the id of the company
      */
     public int getId() {
         return id;
     }
-     
     
 }
