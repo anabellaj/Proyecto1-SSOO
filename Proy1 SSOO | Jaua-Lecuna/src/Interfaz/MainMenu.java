@@ -5,7 +5,9 @@
 package Interfaz;
         
 import Companies.Company;
+import Interfaces.Chart;
 import Main.CommonVariables;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -60,7 +62,12 @@ public class MainMenu extends javax.swing.JFrame {
         seeGraphs.setText("Ver Gráficos");
         seeGraphs.setBorderPainted(false);
         seeGraphs.setOpaque(true);
-        jPanel1.add(seeGraphs, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 640, 160, 40));
+        seeGraphs.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeGraphsActionPerformed(evt);
+            }
+        });
+        jPanel1.add(seeGraphs, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 640, 240, 40));
 
         startApple.setBackground(new java.awt.Color(153, 153, 153));
         startApple.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
@@ -73,7 +80,7 @@ public class MainMenu extends javax.swing.JFrame {
                 startAppleActionPerformed(evt);
             }
         });
-        jPanel1.add(startApple, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 520, 160, 40));
+        jPanel1.add(startApple, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 520, 240, 40));
 
         startDell.setBackground(new java.awt.Color(153, 153, 153));
         startDell.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
@@ -86,7 +93,7 @@ public class MainMenu extends javax.swing.JFrame {
                 startDellActionPerformed(evt);
             }
         });
-        jPanel1.add(startDell, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 580, 160, 40));
+        jPanel1.add(startDell, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 580, 240, 40));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Media/Main Menu.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -146,6 +153,15 @@ public class MainMenu extends javax.swing.JFrame {
             this.startDell.setText("Iniciar Dell");
         }
     }//GEN-LAST:event_startDellActionPerformed
+
+    private void seeGraphsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seeGraphsActionPerformed
+        if (appleStarted && dellStarted){
+            
+            Chart chartBoth = new Chart(CommonVariables.getApple(), 3, CommonVariables.getDell());
+       
+        } else {
+            JOptionPane.showMessageDialog(null, " ¡Inicia ambas simulaciones!" );
+        }     }//GEN-LAST:event_seeGraphsActionPerformed
 
     /**
      * @param args the command line arguments

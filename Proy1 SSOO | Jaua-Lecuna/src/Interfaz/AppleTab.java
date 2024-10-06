@@ -5,6 +5,7 @@
 package Interfaz;
 
 import Companies.Company;
+import Interfaces.Chart;
 import Workers.WorkerTypes;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -492,7 +493,7 @@ public class AppleTab extends javax.swing.JPanel {
 
         apple_statusDir.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         apple_statusDir.setText("\"\"");
-        appleWindow.add(apple_statusDir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 690, 70, -1));
+        appleWindow.add(apple_statusDir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 690, 120, -1));
 
         label20.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label20.setText("Salario");
@@ -512,7 +513,7 @@ public class AppleTab extends javax.swing.JPanel {
 
         apple_statusPM.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         apple_statusPM.setText("\"\"");
-        appleWindow.add(apple_statusPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 70, -1));
+        appleWindow.add(apple_statusPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 120, -1));
 
         jLabel22.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel22.setText("Vendidas");
@@ -578,7 +579,7 @@ public class AppleTab extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void apple_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_ver_graficoActionPerformed
-        // TODO add your handling code here:
+        Chart appleChart = new Chart(this.getApple(), 0, null);
     }//GEN-LAST:event_apple_ver_graficoActionPerformed
 
     private void apple_mas_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_mas_fuentesActionPerformed

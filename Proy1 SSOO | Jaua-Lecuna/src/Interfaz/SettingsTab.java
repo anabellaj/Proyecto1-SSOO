@@ -62,7 +62,7 @@ public class SettingsTab extends javax.swing.JPanel {
         ajustes_cpu = new javax.swing.JTextField();
         ajustes_placa = new javax.swing.JTextField();
         ajustes_RAM = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        guardar = new javax.swing.JButton();
         jLabel30 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
 
@@ -173,16 +173,16 @@ public class SettingsTab extends javax.swing.JPanel {
         });
         settingsWindow.add(ajustes_RAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 490, 80, 30));
 
-        jButton1.setBackground(new java.awt.Color(102, 0, 102));
-        jButton1.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(102, 0, 102));
-        jButton1.setText("Guardar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        guardar.setBackground(new java.awt.Color(102, 0, 102));
+        guardar.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        guardar.setForeground(new java.awt.Color(102, 0, 102));
+        guardar.setText("Guardar");
+        guardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                guardarActionPerformed(evt);
             }
         });
-        settingsWindow.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 640, 440, 40));
+        settingsWindow.add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 640, 440, 40));
 
         jLabel30.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel30.setText("Equivalente a un día en segundos ");
@@ -245,7 +245,7 @@ public class SettingsTab extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_ajustes_RAMActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarActionPerformed
         // TODO add your handling code here:
         try {
 
@@ -253,10 +253,10 @@ public class SettingsTab extends javax.swing.JPanel {
 
             CompanyType compId = null;
             switch (compName) {
-                case "Nickelodeon":
+                case "Apple":
                     compId = CompanyType.Apple;
                     break;
-                case "Disney":
+                case "Dell":
                     compId = CompanyType.Dell;
                     break;
                 default:
@@ -300,7 +300,7 @@ public class SettingsTab extends javax.swing.JPanel {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Ingrese valores válidos");
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_guardarActionPerformed
 
     public void setToZero() {
         this.ajustes_dias_eq1.setText("");
@@ -361,7 +361,7 @@ public class SettingsTab extends javax.swing.JPanel {
     private javax.swing.JTextField ajustes_fuentes;
     private javax.swing.JTextField ajustes_placa;
     private javax.swing.JTextField ajustes_tarjetas;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton guardar;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
