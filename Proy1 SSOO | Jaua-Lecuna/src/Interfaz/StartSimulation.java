@@ -53,6 +53,7 @@ public class StartSimulation {
             CommonVariables.setApple(Apple);
         }
         
+        Apple.updateTimes(CompanyType.Apple);
         AppleTab AppleTab = new AppleTab(Apple);
         
        
@@ -111,7 +112,7 @@ public class StartSimulation {
     }
     public static void stopDell(){
         for (int i = 0; i < CommonVariables.getMainMenu().getTabPanel().getTabCount(); i++) {
-                if(CommonVariables.getMainMenu().getTabPanel().getTitleAt(i).equals("Disney")){
+                if(CommonVariables.getMainMenu().getTabPanel().getTitleAt(i).equals("Dell")){
                     DellTab dell = (DellTab) CommonVariables.getMainMenu().getTabPanel().getComponentAt(i);
                     dell.getDell().endCompany();
                     break;
