@@ -5,6 +5,7 @@
 package Interfaz;
 
 import Companies.Company;
+import Interfaces.Chart;
 import static Main.CommonVariables.getDell;
 import Workers.WorkerTypes;
 import javax.swing.JButton;
@@ -662,7 +663,7 @@ public class DellTab extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void dell_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_ver_graficoActionPerformed
-        // TODO add your handling code here:
+        Chart dellChart = new Chart(this.getDell(), 0, null);
     }//GEN-LAST:event_dell_ver_graficoActionPerformed
 
     private void dell_menos_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_menos_fuentesActionPerformed
@@ -678,10 +679,6 @@ public class DellTab extends javax.swing.JPanel {
         this.getDell_cant_fuentes().setText(Integer.toString(getDell().getEmployees()[WorkerTypes.PowerSupplyProducer.getId()].getSize()));
         
     }//GEN-LAST:event_dell_mas_fuentesActionPerformed
-
-    private void dell_inicio_simulacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_inicio_simulacionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_dell_inicio_simulacionActionPerformed
 
     private void dell_menos_cpuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_menos_cpuActionPerformed
         // TODO add your handling code here:
@@ -748,6 +745,10 @@ public class DellTab extends javax.swing.JPanel {
         getDell().hireEmployee(WorkerTypes.Assembler.getId());
         this.getDell_cant_ensambladores().setText(Integer.toString(getDell().getEmployees()[WorkerTypes.Assembler.getId()].getSize()));
     }//GEN-LAST:event_dell_mas_ensambladoresActionPerformed
+
+    private void dell_inicio_simulacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_inicio_simulacionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dell_inicio_simulacionActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
