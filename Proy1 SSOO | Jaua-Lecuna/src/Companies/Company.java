@@ -39,7 +39,7 @@ public class Company {
             case Apple ->
                 maxEmployees = 15; // 12 + 3 (20221110543)
             case Dell ->
-                maxEmployees = 19; // 12 + 6 (20221110326)
+                maxEmployees = 18; // 12 + 6 (20221110326)
         }
 
         for (int i = 0; i < this.employees.length; i++) {

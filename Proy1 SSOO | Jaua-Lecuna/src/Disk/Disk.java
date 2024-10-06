@@ -57,11 +57,11 @@ public class Disk {
   
     
     private int daysCountdown;
-    private int computerSinceGpuComputer =0; //amount of regular computers produced since the last computer with a gpu
+    private int computerSinceGpuComputer = 0; //amount of regular computers produced since the last computer with a gpu
 
     public Disk(int daysCountdown) {
         this.daysCountdown = daysCountdown;
-        this.produced = new Semaphore(1); //Only 1 person can access the resource at the same time
+        this.produced = new Semaphore(1); // Only 1 person can access the resource at the same time
         this.assembleComputer = new Semaphore(1);
         this.daysCounter = new Semaphore(1);
         this.costs = new Semaphore(1);

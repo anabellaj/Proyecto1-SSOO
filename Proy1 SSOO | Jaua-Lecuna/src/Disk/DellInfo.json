@@ -2,7 +2,7 @@
 "dayLength":2000,
 "daysBetweenReleases":10,
 "numMotherboardProducer":4,
-"numCpuProducer":5,
+"numCpuProducer":4,
 "numPowerSupplyProducer":2,
 "numRamProducer":3,
 "numGpuProducer":2,

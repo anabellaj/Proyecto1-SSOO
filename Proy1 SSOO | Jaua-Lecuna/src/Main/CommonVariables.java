@@ -5,6 +5,7 @@
 package Main;
 
 import Companies.Company;
+import Interfaz.MainMenu;
 import Interfaz.Menu;
 
 /**
@@ -21,9 +22,9 @@ public class CommonVariables {
     private static Company apple;
     private static Company dell;
     
-    private static Menu mainMenu;
+    private static MainMenu mainMenu;
 
-    public CommonVariables(Menu mainMenu) {
+    public CommonVariables(MainMenu mainMenu) {
         this.mainMenu = mainMenu;
     }
 
@@ -95,7 +96,7 @@ public class CommonVariables {
      * Gets the main menu window
      * @return the main menu window
      */
-    public static Menu getMainMenu() {
+    public static MainMenu getMainMenu() {
         return mainMenu;
     }
 
@@ -103,7 +104,7 @@ public class CommonVariables {
      * Sets the main menu window
      * @param mainMenu window to set 
      */
-    public static void setMainMenu(Menu mainMenu) {
+    public static void setMainMenu(MainMenu mainMenu) {
         CommonVariables.mainMenu = mainMenu;
     }
 
