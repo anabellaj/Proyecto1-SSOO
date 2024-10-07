@@ -68,7 +68,6 @@ public class AppleTab extends javax.swing.JPanel {
 
         appleWindow = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        apple_inicio_simulacion = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel4 = new javax.swing.JLabel();
@@ -153,18 +152,24 @@ public class AppleTab extends javax.swing.JPanel {
         numCPU = new javax.swing.JLabel();
         numRAM = new javax.swing.JLabel();
         numGPU = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
 
         appleWindow.setBackground(new java.awt.Color(255, 255, 255));
         appleWindow.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Media/Apple Logo.png"))); // NOI18N
         appleWindow.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
-
-        apple_inicio_simulacion.setBackground(new java.awt.Color(204, 204, 204));
-        apple_inicio_simulacion.setText("Iniciar Simulación");
-        apple_inicio_simulacion.setBorderPainted(false);
-        apple_inicio_simulacion.setOpaque(true);
-        appleWindow.add(apple_inicio_simulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 170, 40));
 
         jLabel3.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel3.setText("Director");
@@ -203,7 +208,7 @@ public class AppleTab extends javax.swing.JPanel {
                 apple_ver_graficoActionPerformed(evt);
             }
         });
-        appleWindow.add(apple_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 170, 40));
+        appleWindow.add(apple_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 170, 40));
 
         jLabel5.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel5.setText("Ganancias:");
@@ -382,8 +387,9 @@ public class AppleTab extends javax.swing.JPanel {
         appleWindow.add(apple_cant_fuentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 30, -1));
 
         apple_gastosTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosTarjeta.setText("0 $");
-        appleWindow.add(apple_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 160, -1));
+        apple_gastosTarjeta.setText("0");
+        apple_gastosTarjeta.setToolTipText("");
+        appleWindow.add(apple_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 400, 70, -1));
 
         maxCPU.setText("max. 20");
         appleWindow.add(maxCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 570, 60, -1));
@@ -405,24 +411,28 @@ public class AppleTab extends javax.swing.JPanel {
         appleWindow.add(numPlacas, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 490, 70, -1));
 
         apple_gastosEnsambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosEnsambladores.setText("0 $");
-        appleWindow.add(apple_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 160, -1));
+        apple_gastosEnsambladores.setText("0");
+        apple_gastosEnsambladores.setToolTipText("");
+        appleWindow.add(apple_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 400, 80, -1));
 
         apple_gastosRAM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosRAM.setText("0 $");
-        appleWindow.add(apple_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, 140, -1));
+        apple_gastosRAM.setText("0");
+        apple_gastosRAM.setToolTipText("");
+        appleWindow.add(apple_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 270, 70, -1));
 
         apple_gastosPlaca.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosPlaca.setText("0 $");
-        appleWindow.add(apple_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 160, -1));
+        apple_gastosPlaca.setText("0");
+        apple_gastosPlaca.setToolTipText("");
+        appleWindow.add(apple_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 400, 70, -1));
 
         jLabel10.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel10.setText("Project Manager");
         appleWindow.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, -1, -1));
 
         apple_gastosCPU.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosCPU.setText("0 $");
-        appleWindow.add(apple_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 270, 140, -1));
+        apple_gastosCPU.setText("0");
+        apple_gastosCPU.setToolTipText("");
+        appleWindow.add(apple_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 270, 70, -1));
 
         jLabel15.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel15.setText("Day Counter");
@@ -450,8 +460,9 @@ public class AppleTab extends javax.swing.JPanel {
         appleWindow.add(apple_gastosDirector, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 690, 90, -1));
 
         apple_gastosFuente.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        apple_gastosFuente.setText("0 $");
-        appleWindow.add(apple_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 120, -1));
+        apple_gastosFuente.setText("0");
+        apple_gastosFuente.setToolTipText("");
+        appleWindow.add(apple_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 70, -1));
 
         label6.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label6.setText("Descontado");
@@ -516,7 +527,7 @@ public class AppleTab extends javax.swing.JPanel {
         appleWindow.add(apple_statusPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 650, 120, -1));
 
         jLabel22.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        jLabel22.setText("Vendidas");
+        jLabel22.setText("Regulares");
         appleWindow.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, 100, -1));
 
         apple_compVendidas.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
@@ -555,6 +566,42 @@ public class AppleTab extends javax.swing.JPanel {
 
         numGPU.setText("0");
         appleWindow.add(numGPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 550, 70, -1));
+
+        jLabel1.setText("Gastos:");
+        appleWindow.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 400, -1, -1));
+
+        jLabel23.setText("Gastos:");
+        appleWindow.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 270, -1, -1));
+
+        jLabel27.setText("Gastos:");
+        appleWindow.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 270, -1, -1));
+
+        jLabel28.setText("Gastos:");
+        appleWindow.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, -1, -1));
+
+        jLabel29.setText("Gastos:");
+        appleWindow.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
+
+        jLabel30.setText("Gastos:");
+        appleWindow.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 400, -1, -1));
+
+        jLabel31.setText("$");
+        appleWindow.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 400, -1, -1));
+
+        jLabel32.setText("$");
+        appleWindow.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 270, -1, -1));
+
+        jLabel33.setText("$");
+        appleWindow.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 400, -1, -1));
+
+        jLabel34.setText("$");
+        appleWindow.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 400, -1, -1));
+
+        jLabel35.setText("$");
+        appleWindow.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 270, -1, -1));
+
+        jLabel36.setText("$");
+        appleWindow.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -675,7 +722,6 @@ public class AppleTab extends javax.swing.JPanel {
     private javax.swing.JLabel apple_gastosPlaca;
     private javax.swing.JLabel apple_gastosRAM;
     private javax.swing.JLabel apple_gastosTarjeta;
-    private javax.swing.JButton apple_inicio_simulacion;
     private javax.swing.JButton apple_mas_cpu;
     private javax.swing.JButton apple_mas_ensambladores;
     private javax.swing.JButton apple_mas_fuentes;
@@ -700,6 +746,7 @@ public class AppleTab extends javax.swing.JPanel {
     private javax.swing.JLabel apple_totalCost;
     private javax.swing.JLabel apple_totalEarnings;
     private javax.swing.JButton apple_ver_grafico;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -714,10 +761,21 @@ public class AppleTab extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -895,14 +953,6 @@ public class AppleTab extends javax.swing.JPanel {
 
     public void setApple_gastosTarjeta(JLabel apple_gastosTarjeta) {
         this.apple_gastosTarjeta = apple_gastosTarjeta;
-    }
-
-    public JButton getApple_inicio_simulacion() {
-        return apple_inicio_simulacion;
-    }
-
-    public void setApple_inicio_simulacion(JButton apple_inicio_simulacion) {
-        this.apple_inicio_simulacion = apple_inicio_simulacion;
     }
 
     public JLabel getApple_netProfit() {
@@ -1084,3 +1134,16 @@ public class AppleTab extends javax.swing.JPanel {
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

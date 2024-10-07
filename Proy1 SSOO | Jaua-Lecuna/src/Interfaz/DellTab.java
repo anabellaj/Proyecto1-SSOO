@@ -65,7 +65,6 @@ public class DellTab extends javax.swing.JPanel {
 
         jPanel3 = new javax.swing.JPanel();
         dellWindow = new javax.swing.JPanel();
-        dell_inicio_simulacion = new javax.swing.JButton();
         jLabel51 = new javax.swing.JLabel();
         jSeparator7 = new javax.swing.JSeparator();
         jLabel52 = new javax.swing.JLabel();
@@ -151,19 +150,21 @@ public class DellTab extends javax.swing.JPanel {
         numCPU = new javax.swing.JLabel();
         numPlaca = new javax.swing.JLabel();
         numRAM = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         dellWindow.setBackground(new java.awt.Color(0, 0, 102));
         dellWindow.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        dell_inicio_simulacion.setText("Iniciar Simulación");
-        dell_inicio_simulacion.setBorderPainted(false);
-        dell_inicio_simulacion.setOpaque(true);
-        dell_inicio_simulacion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                dell_inicio_simulacionActionPerformed(evt);
-            }
-        });
-        dellWindow.add(dell_inicio_simulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 170, 40));
 
         jLabel51.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel51.setForeground(new java.awt.Color(255, 255, 255));
@@ -207,7 +208,7 @@ public class DellTab extends javax.swing.JPanel {
                 dell_ver_graficoActionPerformed(evt);
             }
         });
-        dellWindow.add(dell_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 80, 170, 40));
+        dellWindow.add(dell_ver_grafico, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 170, 40));
 
         jLabel56.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel56.setForeground(new java.awt.Color(255, 255, 255));
@@ -400,8 +401,8 @@ public class DellTab extends javax.swing.JPanel {
 
         dell_gastosTarjeta.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosTarjeta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosTarjeta.setText("0 $");
-        dellWindow.add(dell_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 160, -1));
+        dell_gastosTarjeta.setText("0");
+        dellWindow.add(dell_gastosTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 400, 70, -1));
 
         maxCPU2.setForeground(new java.awt.Color(255, 255, 255));
         maxCPU2.setText("max. 20");
@@ -437,18 +438,18 @@ public class DellTab extends javax.swing.JPanel {
 
         dell_gastosEnsambladores.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosEnsambladores.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosEnsambladores.setText("0 $");
-        dellWindow.add(dell_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 160, -1));
+        dell_gastosEnsambladores.setText("0");
+        dellWindow.add(dell_gastosEnsambladores, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 400, 70, -1));
 
         dell_gastosRAM.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosRAM.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosRAM.setText("0 $");
-        dellWindow.add(dell_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, 140, -1));
+        dell_gastosRAM.setText("0");
+        dellWindow.add(dell_gastosRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 270, 70, -1));
 
         dell_gastosPlaca.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosPlaca.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosPlaca.setText("0 $");
-        dellWindow.add(dell_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 160, -1));
+        dell_gastosPlaca.setText("0");
+        dellWindow.add(dell_gastosPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 400, 70, -1));
 
         jLabel62.setFont(new java.awt.Font("Helvetica Neue", 1, 17)); // NOI18N
         jLabel62.setForeground(new java.awt.Color(255, 255, 255));
@@ -457,8 +458,8 @@ public class DellTab extends javax.swing.JPanel {
 
         dell_gastosCPU.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosCPU.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosCPU.setText("0 $");
-        dellWindow.add(dell_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 270, 140, -1));
+        dell_gastosCPU.setText("0");
+        dellWindow.add(dell_gastosCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 270, 70, -1));
 
         jLabel63.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel63.setForeground(new java.awt.Color(255, 255, 255));
@@ -493,8 +494,8 @@ public class DellTab extends javax.swing.JPanel {
 
         dell_gastosFuente.setForeground(new java.awt.Color(255, 255, 255));
         dell_gastosFuente.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_gastosFuente.setText("0 $");
-        dellWindow.add(dell_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 120, -1));
+        dell_gastosFuente.setText("0 ");
+        dellWindow.add(dell_gastosFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 80, -1));
 
         label12.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         label12.setForeground(new java.awt.Color(255, 255, 255));
@@ -574,7 +575,7 @@ public class DellTab extends javax.swing.JPanel {
 
         jLabel70.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         jLabel70.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel70.setText("Vendidas");
+        jLabel70.setText("Regulares");
         dellWindow.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, 100, -1));
 
         dell_compVendidas.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
@@ -626,6 +627,54 @@ public class DellTab extends javax.swing.JPanel {
         numRAM.setForeground(new java.awt.Color(255, 255, 255));
         numRAM.setText("0");
         dellWindow.add(numRAM, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 490, 70, -1));
+
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setText("Gastos:");
+        dellWindow.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, -1, -1));
+
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setText("Gastos:");
+        dellWindow.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
+
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setText("Gastos:");
+        dellWindow.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 400, -1, -1));
+
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setText("Gastos:");
+        dellWindow.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 270, -1, -1));
+
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Gastos:");
+        dellWindow.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 270, -1, -1));
+
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Gastos:");
+        dellWindow.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 400, -1, -1));
+
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("$");
+        dellWindow.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 400, -1, -1));
+
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("$");
+        dellWindow.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 270, -1, -1));
+
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("$");
+        dellWindow.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, -1, -1));
+
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("$");
+        dellWindow.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 270, -1, -1));
+
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("$");
+        dellWindow.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 400, -1, -1));
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("$");
+        dellWindow.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 400, -1, -1));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -746,10 +795,6 @@ public class DellTab extends javax.swing.JPanel {
         this.getDell_cant_ensambladores().setText(Integer.toString(getDell().getEmployees()[WorkerTypes.Assembler.getId()].getSize()));
     }//GEN-LAST:event_dell_mas_ensambladoresActionPerformed
 
-    private void dell_inicio_simulacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_inicio_simulacionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_dell_inicio_simulacionActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel dellWindow;
@@ -771,7 +816,6 @@ public class DellTab extends javax.swing.JPanel {
     private javax.swing.JLabel dell_gastosPlaca;
     private javax.swing.JLabel dell_gastosRAM;
     private javax.swing.JLabel dell_gastosTarjeta;
-    private javax.swing.JButton dell_inicio_simulacion;
     private javax.swing.JButton dell_mas_cpu;
     private javax.swing.JButton dell_mas_ensambladores;
     private javax.swing.JButton dell_mas_fuentes;
@@ -796,7 +840,17 @@ public class DellTab extends javax.swing.JPanel {
     private javax.swing.JLabel dell_totalCost;
     private javax.swing.JLabel dell_totalEarnings;
     private javax.swing.JButton dell_ver_grafico;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
@@ -806,6 +860,7 @@ public class DellTab extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
@@ -816,6 +871,7 @@ public class DellTab extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -1000,14 +1056,6 @@ public class DellTab extends javax.swing.JPanel {
 
     public void setDell_gastosTarjeta(JLabel dell_gastosTarjeta) {
         this.dell_gastosTarjeta = dell_gastosTarjeta;
-    }
-
-    public JButton getDell_inicio_simulacion() {
-        return dell_inicio_simulacion;
-    }
-
-    public void setDell_inicio_simulacion(JButton dell_inicio_simulacion) {
-        this.dell_inicio_simulacion = dell_inicio_simulacion;
     }
 
     public JButton getDell_mas_cpu() {
