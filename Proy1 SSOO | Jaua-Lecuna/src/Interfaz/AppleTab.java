@@ -153,6 +153,13 @@ public class AppleTab extends javax.swing.JPanel {
         numCPU = new javax.swing.JLabel();
         numRAM = new javax.swing.JLabel();
         numGPU = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
 
         appleWindow.setBackground(new java.awt.Color(255, 255, 255));
         appleWindow.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -556,6 +563,27 @@ public class AppleTab extends javax.swing.JPanel {
         numGPU.setText("0");
         appleWindow.add(numGPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 550, 70, -1));
 
+        jLabel1.setText("Gastos ");
+        appleWindow.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
+
+        jLabel23.setText("Gastos ");
+        appleWindow.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, -1, -1));
+
+        jLabel27.setText("Gastos ");
+        appleWindow.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
+
+        jLabel28.setText("Gastos ");
+        appleWindow.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, -1, -1));
+
+        jLabel29.setText("Gastos ");
+        appleWindow.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 400, -1, -1));
+
+        jLabel30.setText("Gastos ");
+        appleWindow.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 270, -1, -1));
+
+        jLabel31.setText("Gastos ");
+        appleWindow.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 270, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -700,6 +728,7 @@ public class AppleTab extends javax.swing.JPanel {
     private javax.swing.JLabel apple_totalCost;
     private javax.swing.JLabel apple_totalEarnings;
     private javax.swing.JButton apple_ver_grafico;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -714,10 +743,16 @@ public class AppleTab extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
