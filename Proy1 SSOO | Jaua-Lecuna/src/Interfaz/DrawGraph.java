@@ -1,12 +1,13 @@
-package Interfaces;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Interfaz;
 
 import Companies.Company;
-//import Companies.EnumC;
 import Main.CommonVariables;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -19,45 +20,37 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 /**
  *
- * @author HP
+ * @author ani
  */
-public class Chart {
-    
-    
-    //Atributos que guardarán cada compañía
+public class DrawGraph {
     
     Company apple;
     Company dell;
-    //Series de cada compañía
     
+    // XY axis for each company
     XYSeries appleS = new XYSeries("Apple");
     XYSeries dellS = new XYSeries("Dell");
     
-    //Colección de datos de cada serie
-    
+    // Data for each serie
     XYSeriesCollection appleData = new XYSeriesCollection(appleS);
     XYSeriesCollection dellData = new XYSeriesCollection(dellS);
     XYSeriesCollection appleDellData = new XYSeriesCollection();
     
-    //Charts
-    
+    // Graphs 
     JFreeChart appleChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", appleData, PlotOrientation.VERTICAL, true, true, false);
     JFreeChart dellChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", dellData, PlotOrientation.VERTICAL, true, true, false);
     JFreeChart appleDellChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", appleDellData, PlotOrientation.VERTICAL, true, true, false);
     
-    //Paneles
-    
+    // New panels for each graph
     JPanel applePanel = new ChartPanel(appleChart);
     JPanel dellPanel = new ChartPanel(dellChart);
     JPanel appleDellPanel = new ChartPanel(appleDellChart);
     
-    // Días (tiempo de la gráfica)
-    
+    // Intialize time in 0 for the graph
     int days = 0;
     
-    // Constructor
-    
-    public Chart(Company apple, int chosenComp, Company dell){
+
+    public DrawGraph(Company apple, int chosenComp, Company dell){
         
         JFrame frame = new JFrame();
         
@@ -65,11 +58,11 @@ public class Chart {
             case 0 ->                 {
                     this.apple = apple;
                     Timer timer = new Timer(Math.round(CommonVariables.getDayLengthApple()), (ActionEvent e)->{
-                        float totalC = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu();
+                        float totalC = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu() + apple.getDisk().getCostAssemble() + apple.getDisk().getCostDirector() + apple.getDisk().getCostProjectManager();
                         days++;
                        
                      appleS.addOrUpdate(days, Math.round((apple.getDisk().getNetProfit() - totalC)/1000));
-                    
+                        System.out.println(apple.getDisk().getNetProfit());
                     });
                     frame.add(applePanel, BorderLayout.CENTER);
                     timer.start();
@@ -77,7 +70,7 @@ public class Chart {
             case 1 ->                 {
                     this.dell = dell;
                     Timer timer = new Timer(Math.round(CommonVariables.getDayLengthDell()), (ActionEvent e) -> {
-                        float totalC = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu();
+                        float totalC = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
                      
                         days++;
                         dellS.addOrUpdate(days, Math.round((dell.getDisk().getNetProfit() - totalC)/1000));
@@ -95,10 +88,10 @@ public class Chart {
                     Timer timer = new Timer(Math.round((CommonVariables.getDayLengthApple() + CommonVariables.getDayLengthDell())/2 ), (ActionEvent e) -> {
                         days++;
                         
-                        float totalCapple = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu();
+                        float totalCapple = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu() + apple.getDisk().getCostAssemble() + apple.getDisk().getCostDirector() + apple.getDisk().getCostProjectManager();
                         appleS.addOrUpdate(days, Math.round((apple.getDisk().getNetProfit() - totalCapple)/1000));
                         
-                        float totalCdell = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu();
+                        float totalCdell = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
                         dellS.addOrUpdate(days, Math.round((dell.getDisk().getNetProfit() - totalCdell)/1000));
                     });     frame.add(appleDellPanel, BorderLayout.CENTER);
                     timer.start();
@@ -109,4 +102,5 @@ public class Chart {
         frame.setSize(600, 600);
         frame.setVisible(true);
     }
+    
 }

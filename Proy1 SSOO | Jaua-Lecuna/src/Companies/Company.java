@@ -45,7 +45,7 @@ public class Company {
         for (int i = 0; i < this.employees.length; i++) {
             employees[i] = new List();
         }
-        System.out.println(requirements.getDayLength());
+        
         for (int i = 0; i < numMotherboardProd; i++) {
             employees[0].insert(this.createWorker(disk, WorkerTypes.MotherboardProducer, disk.getProduced(), dayLength));
         }
@@ -64,7 +64,7 @@ public class Company {
         for (int i = 0; i < numAssemblers; i++) {
             employees[5].insert(this.createWorker(disk, WorkerTypes.Assembler, disk.getProduced(), dayLength));
         }
-
+       
         employees[6].insert(this.createWorker(disk, WorkerTypes.ProjectManager, disk.getProduced(), dayLength));
         employees[7].insert(this.createWorker(disk, WorkerTypes.Director, disk.getProduced(), dayLength));
 
@@ -152,8 +152,11 @@ public class Company {
      * @param type of worker to hire 
      */
     public void hireEmployee(int type) {
-
+        System.out.println(this.getNumEmployees());
+        System.out.println(this.getMaxEmployees());
         if (this.getNumEmployees() < this.getMaxEmployees()) {
+            
+            
             switch (type) {
                 case 0:
                     Producer motherboard = (Producer) this.createWorker(this.getDisk(), WorkerTypes.MotherboardProducer, this.getDisk().getProduced(), this.getRequirements().getDayLength());
