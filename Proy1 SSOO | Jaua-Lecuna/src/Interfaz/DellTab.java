@@ -5,7 +5,7 @@
 package Interfaz;
 
 import Companies.Company;
-import Interfaces.Chart;
+import Interfaz.DrawGraph;
 import static Main.CommonVariables.getDell;
 import Workers.WorkerTypes;
 import javax.swing.JButton;
@@ -28,16 +28,16 @@ public class DellTab extends javax.swing.JPanel {
         this.Dell = dell;
        
         
-        //Cantidad de trabajadores
+        // Set worker quantity
      
         this.dell_cant_placa.setText(Integer.toString(dell.getEmployees()[0].getSize()));
         this.dell_cant_cpu.setText(Integer.toString(dell.getEmployees()[1].getSize()));
-        this.dell_cant_ram.setText(Integer.toString(dell.getEmployees()[2].getSize()));
-        this.dell_cant_fuentes.setText(Integer.toString(dell.getEmployees()[3].getSize()));
+        this.dell_cant_fuentes.setText(Integer.toString(dell.getEmployees()[2].getSize()));
+        this.dell_cant_ram.setText(Integer.toString(dell.getEmployees()[3].getSize()));
         this.dell_cant_tarjetas.setText(Integer.toString(dell.getEmployees()[4].getSize()));
         this.dell_cant_ensambladores.setText(Integer.toString(dell.getEmployees()[5].getSize()));
 
-        //Condiciones de los progess Bar
+        // Set progress bar 
         
         this.dell_progressBarPlaca.setMinimum(0);
         this.dell_progressBarPlaca.setMaximum(dell.getDisk().getMaxMotherboard());
@@ -663,7 +663,7 @@ public class DellTab extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void dell_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_ver_graficoActionPerformed
-        Chart dellChart = new Chart(this.getDell(), 0, null);
+        DrawGraph dellChart = new DrawGraph(null, 1, this.getDell());
     }//GEN-LAST:event_dell_ver_graficoActionPerformed
 
     private void dell_menos_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dell_menos_fuentesActionPerformed

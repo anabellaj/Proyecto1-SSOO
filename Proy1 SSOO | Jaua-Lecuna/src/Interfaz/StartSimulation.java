@@ -41,7 +41,7 @@ public class StartSimulation {
             AppleReq.setDaysBetweenReleases(fileApple.getDaysBetweenReleases());
             CommonVariables.setDayLengthApple(fileApple.getDayLength());
 
-            Apple = new Company(AppleReq, AppleDisk, fileApple.getNumMotherboardProducer(), fileApple.getNumCpuProducer(), fileApple.getNumPowerSupplyProducer(), fileApple.getNumRamProducer(), fileApple.getNumGpuProducer(), fileApple.getNumAssemblers(), fileApple.getDayLength());
+            Apple = new Company(AppleReq, AppleDisk, fileApple.getNumMotherboardProducer(), fileApple.getNumCpuProducer(), fileApple.getNumPowerSupplyProducer(), fileApple.getNumRamProducer(), fileApple.getNumGpuProducer(), fileApple.getNumAssemblers(), fileApple.getDayLength());            
             CommonVariables.setApple(Apple);
             
         // Sets the data if file is empty 
@@ -65,7 +65,7 @@ public class StartSimulation {
     
     public static void startSimDell() {
 
-        ComputerRequirements DellReq = new ComputerRequirements(CompanyType.Apple);
+        ComputerRequirements DellReq = new ComputerRequirements(CompanyType.Dell);
         FileReader fileReader = new FileReader();
         JSONFile fileDell = null;
         Company Dell;

@@ -5,7 +5,7 @@
 package Interfaz;
 
 import Companies.Company;
-import Interfaces.Chart;
+import Interfaz.DrawGraph;
 import Workers.WorkerTypes;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -33,8 +33,8 @@ public class AppleTab extends javax.swing.JPanel {
      
         this.apple_cant_placa.setText(Integer.toString(Apple.getEmployees()[0].getSize()));
         this.apple_cant_cpu.setText(Integer.toString(Apple.getEmployees()[1].getSize()));
-        this.apple_cant_ram.setText(Integer.toString(Apple.getEmployees()[2].getSize()));
-        this.apple_cant_fuentes.setText(Integer.toString(Apple.getEmployees()[3].getSize()));
+        this.apple_cant_fuentes.setText(Integer.toString(Apple.getEmployees()[2].getSize()));
+        this.apple_cant_ram.setText(Integer.toString(Apple.getEmployees()[3].getSize()));
         this.apple_cant_tarjetas.setText(Integer.toString(Apple.getEmployees()[4].getSize()));
         this.apple_cant_ensambladores.setText(Integer.toString(Apple.getEmployees()[5].getSize()));
 
@@ -579,7 +579,7 @@ public class AppleTab extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void apple_ver_graficoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_ver_graficoActionPerformed
-        Chart appleChart = new Chart(this.getApple(), 0, null);
+        DrawGraph appleChart = new DrawGraph(this.getApple(), 0, null);
     }//GEN-LAST:event_apple_ver_graficoActionPerformed
 
     private void apple_mas_fuentesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_mas_fuentesActionPerformed

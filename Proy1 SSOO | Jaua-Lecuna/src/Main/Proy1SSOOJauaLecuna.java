@@ -19,29 +19,14 @@ public class Proy1SSOOJauaLecuna {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-//        Menu menu = new Menu();
-//        menu.setVisible(true);
-//        menu.setLocationRelativeTo(null);
-//        menu.setResizable(false);
-//        DellTab DellWindow = new DellTab();
-//        
-//        menu.getTabPanel().addTab("Dell", DellWindow);
-//        
-//        
 
-//        MainMenu menu = new MainMenu();
-//        menu.setVisible(true);
 
         MainMenu main = new MainMenu();
         CommonVariables global = new CommonVariables(main);
         main.setVisible(true);
+        main.setLocationRelativeTo(null);
         
-        //AppleTab appleTab = new AppleTab();
-        //DellTab dellTab = new DellTab(Dell);
-//        menu.getTabPanel().addTab("Apple", appleTab);
-        //menu.getTabPanel().addTab("Dell", dellTab);
-        
+
     }
     
 }

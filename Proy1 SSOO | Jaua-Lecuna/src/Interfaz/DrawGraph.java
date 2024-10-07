@@ -1,12 +1,13 @@
-package Interfaces;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Interfaz;
 
 import Companies.Company;
-//import Companies.EnumC;
 import Main.CommonVariables;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -19,45 +20,37 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 /**
  *
- * @author HP
+ * @author ani
  */
-public class Chart {
-    
-    
-    //Atributos que guardarán cada compañía
+public class DrawGraph {
     
     Company apple;
     Company dell;
-    //Series de cada compañía
     
+    // XY axis for each company
     XYSeries appleS = new XYSeries("Apple");
     XYSeries dellS = new XYSeries("Dell");
     
-    //Colección de datos de cada serie
-    
+    // Data for each serie
     XYSeriesCollection appleData = new XYSeriesCollection(appleS);
     XYSeriesCollection dellData = new XYSeriesCollection(dellS);
     XYSeriesCollection appleDellData = new XYSeriesCollection();
     
-    //Charts
-    
+    // Graphs 
     JFreeChart appleChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", appleData, PlotOrientation.VERTICAL, true, true, false);
     JFreeChart dellChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", dellData, PlotOrientation.VERTICAL, true, true, false);
     JFreeChart appleDellChart = ChartFactory.createXYLineChart("Utilidad en el tiempo", "Días", "Utilidad (en miles de $.)", appleDellData, PlotOrientation.VERTICAL, true, true, false);
     
-    //Paneles
-    
+    // New panels for each graph
     JPanel applePanel = new ChartPanel(appleChart);
     JPanel dellPanel = new ChartPanel(dellChart);
     JPanel appleDellPanel = new ChartPanel(appleDellChart);
     
-    // Días (tiempo de la gráfica)
-    
+    // Intialize time in 0 for the graph
     int days = 0;
     
-    // Constructor
-    
-    public Chart(Company apple, int chosenComp, Company dell){
+
+    public DrawGraph(Company apple, int chosenComp, Company dell){
         
         JFrame frame = new JFrame();
         
@@ -109,4 +102,5 @@ public class Chart {
         frame.setSize(600, 600);
         frame.setVisible(true);
     }
+    
 }
