@@ -90,12 +90,12 @@ public class UpdateAppleData extends Thread{
             appleTab.getApple_salarioDescontado().setText(Integer.toString(appleTab.getApple().getDisk().getFaults()*100));
             
             // Number of computers produced
-            appleTab.getApple_compVendidas().setText(transformToThousands(appleTab.getApple().getDisk().getComputer()));
-            appleTab.getApple_compTarjeta().setText(transformToThousands(appleTab.getApple().getDisk().getGpuComputer()));
+            appleTab.getApple_compVendidas().setText(Integer.toString(appleTab.getApple().getDisk().getComputer()));
+            appleTab.getApple_compTarjeta().setText(Integer.toString(appleTab.getApple().getDisk().getGpuComputer()));
             
 
             // Days until computer release 
-            appleTab.getApple_dayCounter().setText(transformToThousands(appleTab.getApple().getDisk().getDaysCountdown()));
+            appleTab.getApple_dayCounter().setText(Integer.toString(appleTab.getApple().getDisk().getDaysCountdown()));
         }
     }
     
