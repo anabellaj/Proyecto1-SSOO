@@ -61,7 +61,7 @@ public class DrawGraph {
                         float totalC = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu() + apple.getDisk().getCostAssemble() + apple.getDisk().getCostDirector() + apple.getDisk().getCostProjectManager();
                         days++;
                        
-                     appleS.addOrUpdate(days, Math.round((apple.getDisk().getNetProfit() - totalC)/1000));
+                     appleS.addOrUpdate(days, Math.round((apple.getDisk().getEarnings() - totalC)/1000));
                         System.out.println(apple.getDisk().getNetProfit());
                     });
                     frame.add(applePanel, BorderLayout.CENTER);
@@ -70,10 +70,10 @@ public class DrawGraph {
             case 1 ->                 {
                     this.dell = dell;
                     Timer timer = new Timer(Math.round(CommonVariables.getDayLengthDell()), (ActionEvent e) -> {
-                        float totalC = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
+                        float totalC = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getCostRam() + dell.getDisk().getCostPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
                      
                         days++;
-                        dellS.addOrUpdate(days, Math.round((dell.getDisk().getNetProfit() - totalC)/1000));
+                        dellS.addOrUpdate(days, Math.round((dell.getDisk().getEarnings() - totalC)/1000));
                     });   
                     frame.add(dellPanel, BorderLayout.CENTER);
                     timer.start();
@@ -89,10 +89,10 @@ public class DrawGraph {
                         days++;
                         
                         float totalCapple = apple.getDisk().getCostMotherboard() + apple.getDisk().getCostCpu() + apple.getDisk().getCostRam() + apple.getDisk().getCostPowerSupply() + apple.getDisk().getCostGpu() + apple.getDisk().getCostAssemble() + apple.getDisk().getCostDirector() + apple.getDisk().getCostProjectManager();
-                        appleS.addOrUpdate(days, Math.round((apple.getDisk().getNetProfit() - totalCapple)/1000));
+                        appleS.addOrUpdate(days, Math.round((apple.getDisk().getEarnings() - totalCapple)/1000));
                         
-                        float totalCdell = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getRam() + dell.getDisk().getPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
-                        dellS.addOrUpdate(days, Math.round((dell.getDisk().getNetProfit() - totalCdell)/1000));
+                        float totalCdell = dell.getDisk().getCostMotherboard() + dell.getDisk().getCostCpu() + dell.getDisk().getCostRam() + dell.getDisk().getCostPowerSupply() + dell.getDisk().getCostGpu() + dell.getDisk().getCostAssemble() + dell.getDisk().getCostDirector() + dell.getDisk().getCostProjectManager();
+                        dellS.addOrUpdate(days, Math.round((dell.getDisk().getEarnings() - totalCdell)/1000));
                     });     frame.add(appleDellPanel, BorderLayout.CENTER);
                     timer.start();
                 }

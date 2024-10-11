@@ -1,1 +1,1 @@
-{"dayLength":1000,"daysBetweenReleases":10,"numMotherboardProducer":1,"numCpuProducer":1,"numPowerSupplyProducer":2,"numRamProducer":1,"numGpuProducer":1,"numAssemblers":1}
+{"dayLength":100,"daysBetweenReleases":10,"numMotherboardProducer":5,"numCpuProducer":3,"numPowerSupplyProducer":1,"numRamProducer":2,"numGpuProducer":1,"numAssemblers":3}
