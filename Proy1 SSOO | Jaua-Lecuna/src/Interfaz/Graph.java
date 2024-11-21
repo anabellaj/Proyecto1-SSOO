@@ -6,14 +6,14 @@ package Interfaz;
 
 /**
  *
- * @author andre
+ * @author ani
  */
-public class Charts extends javax.swing.JPanel {
+public class Graph extends javax.swing.JPanel {
 
     /**
-     * Creates new form NewJPanel
+     * Creates new form Graph
      */
-    public Charts() {
+    public Graph() {
         initComponents();
     }
 

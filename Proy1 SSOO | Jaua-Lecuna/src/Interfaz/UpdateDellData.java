@@ -40,7 +40,7 @@ public class UpdateDellData extends Thread{
             // Dell Data:
             
             // General Info (Earnings, costs and net profit)
-            float totalCosts = dellTab.getDell().getDisk().getCostMotherboard()+ dellTab.getDell().getDisk().getCostCpu() + dellTab.getDell().getDisk().getCostPowerSupply() + dellTab.getDell().getDisk().getCostRam() + dellTab.getDell().getDisk().getCostGpu() + dellTab.getDell().getDisk().getCostProjectManager()+ dellTab.getDell().getDisk().getCostDirector();
+            float totalCosts = dellTab.getDell().getDisk().getCostMotherboard()+ dellTab.getDell().getDisk().getCostCpu() + dellTab.getDell().getDisk().getCostPowerSupply() + dellTab.getDell().getDisk().getCostRam() + dellTab.getDell().getDisk().getCostGpu() + dellTab.getDell().getDisk().getCostAssemble() + dellTab.getDell().getDisk().getCostProjectManager()+ dellTab.getDell().getDisk().getCostDirector();
             dellTab.getDell_totalCost().setText(transformToThousands(totalCosts));
             dellTab.getDell_totalEarnings().setText(transformToThousands(dellTab.getDell().getDisk().getEarnings()));
             dellTab.getDell_netProfit().setText(transformToThousands(dellTab.getDell().getDisk().getEarnings() - totalCosts));

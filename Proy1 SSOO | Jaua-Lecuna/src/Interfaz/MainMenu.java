@@ -5,7 +5,7 @@
 package Interfaz;
         
 import Companies.Company;
-import Interfaces.Chart;
+import Interfaz.DrawGraph;
 import Main.CommonVariables;
 import javax.swing.JOptionPane;
 
@@ -119,7 +119,7 @@ public class MainMenu extends javax.swing.JFrame {
         if (!isAppleStarted()) {
             StartSimulation.startSimApple();
             setAppleStarted(true);
-            this.startApple.setText("Detener Simulación");
+            this.startApple.setText("Detener Apple");
         }else{
             for (int i = 0; i < CommonVariables.getMainMenu().getTabPanel().getTabCount(); i++) {
                 if(CommonVariables.getMainMenu().getTabPanel().getTitleAt(i).equals("Apple")){
@@ -139,7 +139,7 @@ public class MainMenu extends javax.swing.JFrame {
         if (!isDellStarted()) {
             StartSimulation.startSimDell();
             setDellStarted(true);
-            this.startDell.setText("Detener Simulación");
+            this.startDell.setText("Detener Dell");
         }else{
             for (int i = 0; i < CommonVariables.getMainMenu().getTabPanel().getTabCount(); i++) {
                 if(CommonVariables.getMainMenu().getTabPanel().getTitleAt(i).equals("Dell")){
@@ -157,10 +157,10 @@ public class MainMenu extends javax.swing.JFrame {
     private void seeGraphsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seeGraphsActionPerformed
         if (appleStarted && dellStarted){
             
-            Chart chartBoth = new Chart(CommonVariables.getApple(), 3, CommonVariables.getDell());
+            DrawGraph chartBoth = new DrawGraph(CommonVariables.getApple(), 3, CommonVariables.getDell());
        
         } else {
-            JOptionPane.showMessageDialog(null, " ¡Inicia ambas simulaciones!" );
+            JOptionPane.showMessageDialog(null, " ¡Recuerda iniciar ambas simulaciones!" );
         }     }//GEN-LAST:event_seeGraphsActionPerformed
 
     /**

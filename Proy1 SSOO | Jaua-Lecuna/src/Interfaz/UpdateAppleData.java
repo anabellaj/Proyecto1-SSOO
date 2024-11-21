@@ -40,7 +40,7 @@ public class UpdateAppleData extends Thread{
             // Apple Data:
             
             // General Info (Earnings, costs and net profit)
-            float totalCosts = appleTab.getApple().getDisk().getCostMotherboard()+ appleTab.getApple().getDisk().getCostCpu() + appleTab.getApple().getDisk().getCostPowerSupply() + appleTab.getApple().getDisk().getCostRam() + appleTab.getApple().getDisk().getCostGpu() + appleTab.getApple().getDisk().getCostProjectManager()+ appleTab.getApple().getDisk().getCostDirector();
+            float totalCosts = appleTab.getApple().getDisk().getCostMotherboard()+ appleTab.getApple().getDisk().getCostCpu() + appleTab.getApple().getDisk().getCostPowerSupply() + appleTab.getApple().getDisk().getCostRam() + appleTab.getApple().getDisk().getCostGpu() + appleTab.getApple().getDisk().getCostAssemble()+ appleTab.getApple().getDisk().getCostProjectManager()+ appleTab.getApple().getDisk().getCostDirector();
             appleTab.getApple_totalCost().setText(transformToThousands(totalCosts));
             appleTab.getApple_totalEarnings().setText(transformToThousands(appleTab.getApple().getDisk().getEarnings()));
             appleTab.getApple_netProfit().setText(transformToThousands(appleTab.getApple().getDisk().getEarnings() - totalCosts));
@@ -90,12 +90,12 @@ public class UpdateAppleData extends Thread{
             appleTab.getApple_salarioDescontado().setText(Integer.toString(appleTab.getApple().getDisk().getFaults()*100));
             
             // Number of computers produced
-            appleTab.getApple_compVendidas().setText(transformToThousands(appleTab.getApple().getDisk().getComputer()));
-            appleTab.getApple_compTarjeta().setText(transformToThousands(appleTab.getApple().getDisk().getGpuComputer()));
+            appleTab.getApple_compVendidas().setText(Integer.toString(appleTab.getApple().getDisk().getComputer()));
+            appleTab.getApple_compTarjeta().setText(Integer.toString(appleTab.getApple().getDisk().getGpuComputer()));
             
 
             // Days until computer release 
-            appleTab.getApple_dayCounter().setText(transformToThousands(appleTab.getApple().getDisk().getDaysCountdown()));
+            appleTab.getApple_dayCounter().setText(Integer.toString(appleTab.getApple().getDisk().getDaysCountdown()));
         }
     }
     

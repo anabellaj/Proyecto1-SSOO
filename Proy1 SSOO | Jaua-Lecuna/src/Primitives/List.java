@@ -63,7 +63,7 @@ public class List {
      */
     public boolean remove(){
         if(getSize()==1){
-            JOptionPane.showMessageDialog(null, "La lista no puede estar vacia");
+//            JOptionPane.showMessageDialog(null, "La lista no puede estar vacia");
             return false;
         }else if(getSize()>1){
             getHead().getWorkerInfo().fire();
